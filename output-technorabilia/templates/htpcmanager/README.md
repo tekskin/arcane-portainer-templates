@@ -1,16 +1,12 @@
-# Htpcmanager
+# HTPC Manager
 
-[Htpcmanager](https://github.com/HTPC-Manager/HTPC-Manager) is a front end for many htpc related applications.
+HTPC Manager, a front end for many htpc related applications. Uses the Hellowlol HTPC Manager fork.
 
 - **Arcane template ID:** `htpcmanager`
-- **Original Portainer name:** `Htpcmanager`
-- **Categories:** Media Tools
+- **Original Portainer name:** `htpcmanager`
+- **Categories:** Video, Music, Other
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/htpcmanager/config
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

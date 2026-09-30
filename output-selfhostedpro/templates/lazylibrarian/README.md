@@ -6,7 +6,7 @@ LazyLibrarian is a program to follow authors and grab metadata for all your digi
 - **Original Portainer name:** `lazylibrarian`
 - **Categories:** Books
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

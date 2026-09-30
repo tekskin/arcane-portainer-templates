@@ -1,6 +1,6 @@
 services:
   beets:
-    image: lscr.io/linuxserver/beets:latest
+    image: linuxserver/beets:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

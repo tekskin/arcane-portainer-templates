@@ -1,6 +1,6 @@
 services:
   emby:
-    image: lscr.io/linuxserver/emby:latest
+    image: linuxserver/emby:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

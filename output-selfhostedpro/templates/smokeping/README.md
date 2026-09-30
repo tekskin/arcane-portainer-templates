@@ -1,12 +1,12 @@
 # SmokePing
 
-No description was provided in the source Portainer template.
+SmokePing is a latency logging and graphing and alerting system. It consists of a daemon process which organizes the latency measurements and a CGI which presents the graphs.
 
 - **Arcane template ID:** `smokeping`
 - **Original Portainer name:** `smokeping`
 - **Categories:** Management
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

@@ -3,14 +3,11 @@ services:
     image: linuxserver/jackett:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      AUTO_UPDATE: '${AUTO_UPDATE:-true}'
-      RUN_OPTS: '${RUN_OPTS:-}'
+      PGID: '${PGID:-100}'
     ports:
       - '9117:9117/tcp'
     volumes:
-      - '/srv/lsio/jackett/config:/config'
-      - '/srv/lsio/jackett/downloads:/downloads'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Jackett:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
     restart: 'unless-stopped'
     platform: 'linux'

@@ -1,6 +1,6 @@
 services:
   daapd:
-    image: lscr.io/linuxserver/daapd:latest
+    image: linuxserver/daapd:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

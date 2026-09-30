@@ -1,6 +1,6 @@
 services:
   resilio-sync:
-    image: lscr.io/linuxserver/resilio-sync:latest
+    image: linuxserver/resilio-sync:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

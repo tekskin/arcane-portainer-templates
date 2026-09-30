@@ -1,6 +1,6 @@
 services:
   htpcmanager:
-    image: lscr.io/linuxserver/htpcmanager:latest
+    image: linuxserver/htpcmanager:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

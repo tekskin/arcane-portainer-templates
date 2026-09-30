@@ -1,13 +1,12 @@
 services:
   prowlarr:
-    image: linuxserver/prowlarr:latest
+    image: ghcr.io/linuxserver/prowlarr:develop
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
       - '9696:9696/tcp'
     volumes:
-      - '/srv/lsio/prowlarr/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Prowlarr:/config'
     restart: 'unless-stopped'
     platform: 'linux'

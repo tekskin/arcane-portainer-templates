@@ -1,6 +1,6 @@
 services:
   nzbget:
-    image: lscr.io/linuxserver/nzbget:latest
+    image: linuxserver/nzbget:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

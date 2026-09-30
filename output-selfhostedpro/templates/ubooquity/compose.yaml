@@ -1,6 +1,6 @@
 services:
   ubooquity:
-    image: lscr.io/linuxserver/ubooquity:latest
+    image: linuxserver/ubooquity:latest
     environment:
       MAXMEM: '${MAXMEM:-512}'
       PUID: '${PUID:-1000}'

@@ -1,6 +1,6 @@
 services:
   lychee:
-    image: lscr.io/linuxserver/lychee:latest
+    image: linuxserver/lychee:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

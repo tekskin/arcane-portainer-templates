@@ -1,0 +1,13 @@
+services:
+  youtubedl-material:
+    image: tzahi12345/youtubedl-material:latest
+    ports:
+      - '17442:17442/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/YTDLM:/app/appdata'
+      - '${PORTAINER_ROOT}/Files/AppData/Youtube/Video:/app/video'
+      - '${PORTAINER_ROOT}/Files/AppData/Youtube/Subscriptions:/app/subscriptions'
+      - '${PORTAINER_ROOT}/Files/AppData/Youtube/Users:/app/users'
+      - '${PORTAINER_ROOT}/Files/AppData/Youtube/Audio:/app/audio'
+    restart: 'unless-stopped'
+    platform: 'linux'

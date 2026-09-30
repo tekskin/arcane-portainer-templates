@@ -1,12 +1,12 @@
 # HTPC Manager
 
-HTPC Manaager, a front end for many htpc related applications. Hellowlol version.
+HTPC Manager, a front end for many htpc related applications. Uses the Hellowlol HTPC Manager fork.
 
 - **Arcane template ID:** `htpcmanager`
 - **Original Portainer name:** `htpcmanager`
 - **Categories:** Video, Music, Other
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

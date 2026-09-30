@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: lscr.io/linuxserver/nginx:latest
+    image: linuxserver/nginx:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

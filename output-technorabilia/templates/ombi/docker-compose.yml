@@ -3,12 +3,10 @@ services:
     image: linuxserver/ombi:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      BASE_URL: '${BASE_URL:-/}'
+      PGID: '${PGID:-100}'
     ports:
       - '3579:3579/tcp'
     volumes:
-      - '/srv/lsio/ombi/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Ombi:/config'
     restart: 'unless-stopped'
     platform: 'linux'

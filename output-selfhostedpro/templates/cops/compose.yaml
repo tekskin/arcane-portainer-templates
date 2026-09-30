@@ -1,6 +1,6 @@
 services:
   cops:
-    image: lscr.io/linuxserver/cops:latest
+    image: linuxserver/cops:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

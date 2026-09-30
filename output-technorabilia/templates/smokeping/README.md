@@ -1,16 +1,12 @@
-# Smokeping
+# SmokePing
 
-[Smokeping](https://oss.oetiker.ch/smokeping/) keeps track of your network latency. For a full example of what this application is capable of visit [UCDavis](http://smokeping.ucdavis.edu/cgi-bin/smokeping.fcgi).
+SmokePing is a latency logging and graphing and alerting system. It consists of a daemon process which organizes the latency measurements and a CGI which presents the graphs.
 
 - **Arcane template ID:** `smokeping`
-- **Original Portainer name:** `Smokeping`
-- **Categories:** Monitoring
+- **Original Portainer name:** `smokeping`
+- **Categories:** Management
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/smokeping/configmkdir -p /srv/lsio/smokeping/data
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

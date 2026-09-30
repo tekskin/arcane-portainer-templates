@@ -1,16 +1,17 @@
 # Tautulli
 
-[Tautulli](http://tautulli.com) is a python based web application for monitoring, analytics and notifications for Plex Media Server.
+Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.
 
 - **Arcane template ID:** `tautulli`
-- **Original Portainer name:** `Tautulli`
-- **Categories:** Media Tools
+- **Original Portainer name:** `tautulli`
+- **Categories:** Other, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Original Portainer notes
 
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/tautulli/config
+Port 8181 The webui for Tautulli's webuiConfiguration /config - Storing Configuration and the Tautulli database
+/logs - Map to you plex logs (required for IP logging)
 
 ## Conversion notes
 

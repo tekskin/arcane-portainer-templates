@@ -1,16 +1,12 @@
 # Medusa
 
-[Medusa](https://pymedusa.com/) is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
 
 - **Arcane template ID:** `medusa`
-- **Original Portainer name:** `Medusa`
-- **Categories:** Media Management
+- **Original Portainer name:** `medusa`
+- **Categories:** Downloaders, Video
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/medusa/configmkdir -p /srv/lsio/medusa/downloadsmkdir -p /srv/lsio/medusa/tv
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

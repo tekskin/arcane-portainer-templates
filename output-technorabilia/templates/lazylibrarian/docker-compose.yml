@@ -3,14 +3,12 @@ services:
     image: linuxserver/lazylibrarian:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      DOCKER_MODS: '${DOCKER_MODS:-linuxserver/mods:universal-calibre|linuxserver/mods:lazylibrarian-ffmpeg}'
+      PGID: '${PGID:-100}'
     ports:
       - '5299:5299/tcp'
     volumes:
-      - '/srv/lsio/lazylibrarian/config:/config'
-      - '/srv/lsio/lazylibrarian/downloads:/downloads'
-      - '/srv/lsio/lazylibrarian/books:/books'
+      - '/config'
+      - '/downloads'
+      - '/books'
     restart: 'unless-stopped'
     platform: 'linux'

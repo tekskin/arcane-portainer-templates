@@ -1,6 +1,6 @@
 services:
   plexrequests:
-    image: lscr.io/linuxserver/plexrequests:latest
+    image: linuxserver/plexrequests:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

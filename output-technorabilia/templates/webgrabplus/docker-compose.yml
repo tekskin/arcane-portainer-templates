@@ -3,12 +3,9 @@ services:
     image: linuxserver/webgrabplus:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-    ports:
-      - '80:80/tcp'
+      PGID: '${PGID:-100}'
     volumes:
-      - '/srv/lsio/webgrabplus/config:/config'
-      - '/srv/lsio/webgrabplus/data:/data'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/WebGrabPlus:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/WebGrabPlus:/data'
     restart: 'unless-stopped'
     platform: 'linux'

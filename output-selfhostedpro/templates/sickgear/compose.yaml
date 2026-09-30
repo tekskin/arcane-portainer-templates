@@ -1,6 +1,6 @@
 services:
   sickgear:
-    image: lscr.io/linuxserver/sickgear:latest
+    image: linuxserver/sickgear:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

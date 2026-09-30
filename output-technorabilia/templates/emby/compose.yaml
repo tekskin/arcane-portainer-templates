@@ -3,15 +3,14 @@ services:
     image: linuxserver/emby:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
+      TZ: '${TZ:-}'
     ports:
       - '8096:8096/tcp'
       - '8920:8920/tcp'
     volumes:
-      - '/srv/lsio/emby/config:/config'
-      - '/srv/lsio/emby/data/tvshows:/data/tvshows'
-      - '/srv/lsio/emby/data/movies:/data/movies'
-      - '/opt/vc/lib:/opt/vc/lib'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Emby:/config'
+      - '${PORTAINER_ROOT}/TV:/data/tvshows'
+      - '${PORTAINER_ROOT}/Movies:/data/movies'
     restart: 'unless-stopped'
     platform: 'linux'

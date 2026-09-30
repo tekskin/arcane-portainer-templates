@@ -1,16 +1,12 @@
-# Nzbget
+# NZBGet
 
-[Nzbget](http://nzbget.com/) is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players.
 
 - **Arcane template ID:** `nzbget`
-- **Original Portainer name:** `Nzbget`
+- **Original Portainer name:** `nzbget`
 - **Categories:** Downloaders
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/nzbget/configmkdir -p /srv/lsio/nzbget/downloads
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

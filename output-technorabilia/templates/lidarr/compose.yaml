@@ -1,15 +1,14 @@
 services:
   lidarr:
-    image: linuxserver/lidarr:latest
+    image: hotio/lidarr:release
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
       - '8686:8686/tcp'
     volumes:
-      - '/srv/lsio/lidarr/config:/config'
-      - '/srv/lsio/lidarr/music:/music'
-      - '/srv/lsio/lidarr/downloads:/downloads'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Lidarr:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+      - '${PORTAINER_ROOT}/Music:/music'
     restart: 'unless-stopped'
     platform: 'linux'

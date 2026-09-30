@@ -3,10 +3,10 @@
 Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
 
 - **Arcane template ID:** `emby`
-- **Original Portainer name:** `emby`
+- **Original Portainer name:** `Emby`
 - **Categories:** Video, Music, Photos
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

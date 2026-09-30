@@ -1,6 +1,6 @@
 services:
   znc:
-    image: lscr.io/linuxserver/znc:latest
+    image: linuxserver/znc:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

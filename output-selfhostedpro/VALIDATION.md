@@ -1,8 +1,8 @@
 # Validation
 
-- Source templates found: **106**
-- Converted successfully: **105**
-- Failed conversion: **1**
+- Source templates found: **112**
+- Converted successfully: **112**
+- Failed conversion: **0**
 - Registry structural validation: **PASS**
 
 The generated registry contains only fields documented by Arcane's registry schema.

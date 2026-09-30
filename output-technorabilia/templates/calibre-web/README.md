@@ -1,16 +1,17 @@
-# Calibre-web
+# Calibre Web
 
-[Calibre-web](https://github.com/janeczku/calibre-web) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.
+Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
 
 - **Arcane template ID:** `calibre-web`
-- **Original Portainer name:** `Calibre-web`
-- **Categories:** Books
+- **Original Portainer name:** `calibre-web`
+- **Categories:** Cloud, Books
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Original Portainer notes
 
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/calibre-web/configmkdir -p /srv/lsio/calibre-web/books
+Configuration /config - Where Calibre-web should store it's database
+/books - Path to your calibre library metadata.db file
 
 ## Conversion notes
 

@@ -1,0 +1,12 @@
+services:
+  twitch-points-miner:
+    image: rdavidoff/twitch-channel-points-miner-v2:latest
+    ports:
+      - '5000:5000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/TwitchPointsMiner/run.py:/usr/src/app/run.py'
+      - '${PORTAINER_ROOT}/Files/AppData/TwitchPointsMiner/cookies:/usr/src/app/cookies'
+      - '${PORTAINER_ROOT}/Files/AppData/TwitchPointsMiner/logs:/usr/src/app/logs'
+      - '${PORTAINER_ROOT}/Files/AppData/TwitchPointsMiner/analytics:/usr/src/app/analytics'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,15 @@
+services:
+  gitea:
+    image: gitea/gitea:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '3000:3000/tcp'
+      - '222:22/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Gitea:/data'
+      - ' /etc/timezone:/etc/timezone:ro'
+      - '/etc/localtime:/etc/localtime:ro'
+    restart: 'unless-stopped'
+    platform: 'linux'

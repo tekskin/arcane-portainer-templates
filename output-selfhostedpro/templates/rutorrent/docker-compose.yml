@@ -1,6 +1,6 @@
 services:
   rutorrent:
-    image: lscr.io/linuxserver/rutorrent:latest
+    image: linuxserver/rutorrent:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

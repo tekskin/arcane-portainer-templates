@@ -6,7 +6,7 @@ COPS links to your Calibre library database and allows downloading and emailing 
 - **Original Portainer name:** `cops`
 - **Categories:** Cloud, Books
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

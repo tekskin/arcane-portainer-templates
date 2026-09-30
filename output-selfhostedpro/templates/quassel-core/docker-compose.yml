@@ -1,6 +1,6 @@
 services:
   quassel-core:
-    image: lscr.io/linuxserver/quassel-core:latest
+    image: linuxserver/quassel-core:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

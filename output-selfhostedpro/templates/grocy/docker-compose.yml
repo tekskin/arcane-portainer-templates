@@ -1,6 +1,6 @@
 services:
   grocy:
-    image: lscr.io/linuxserver/grocy:latest
+    image: linuxserver/grocy:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

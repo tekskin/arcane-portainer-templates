@@ -1,6 +1,6 @@
 services:
   duplicati:
-    image: lscr.io/linuxserver/duplicati:latest
+    image: linuxserver/duplicati:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

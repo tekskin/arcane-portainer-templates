@@ -1,6 +1,6 @@
 services:
   smokeping:
-    image: lscr.io/linuxserver/smokeping:latest
+    image: linuxserver/smokeping:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

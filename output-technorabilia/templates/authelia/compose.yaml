@@ -1,0 +1,11 @@
+services:
+  authelia:
+    image: authelia/authelia:latest
+    environment:
+      TZ: '${TZ:-}'
+    ports:
+      - '9091:9091/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Authelia:/etc/authelia/'
+    restart: 'unless-stopped'
+    platform: 'linux'

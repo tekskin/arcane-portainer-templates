@@ -6,7 +6,7 @@ Where are your photos and documents? With Nextcloud you pick a server of your ch
 - **Original Portainer name:** `nextcloud`
 - **Categories:** Cloud, Productivity, Tools, Other, Web
 - **Source type:** Portainer `3`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/Stack/nextcloud.yml
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/nextcloud.yml
 
 ## Original Portainer notes
 

@@ -1,6 +1,6 @@
 services:
   embystat:
-    image: lscr.io/linuxserver/embystat:latest
+    image: linuxserver/embystat:latest
     ports:
       - '6555:6555/tcp'
     volumes:

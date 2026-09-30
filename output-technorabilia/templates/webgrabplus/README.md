@@ -1,16 +1,17 @@
-# Webgrabplus
+# WebGrab+Plus
 
-[Webgrabplus](https://www.webgrabplus.com) is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
 
 - **Arcane template ID:** `webgrabplus`
-- **Original Portainer name:** `Webgrabplus`
-- **Categories:** Media Tools
+- **Original Portainer name:** `webgrabplus`
+- **Categories:** Downloaders
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Original Portainer notes
 
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/webgrabplus/configmkdir -p /srv/lsio/webgrabplus/data
+Configuration /config - This is where WebGrab+Plus will store it's configuration
+/data - This is where tv_grab_wg script in the Tvheadend container looks for the guide.xml file.
 
 ## Conversion notes
 

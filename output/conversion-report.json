@@ -72,8 +72,8 @@
       "source_name": "Bookstack",
       "type": 3,
       "kind": "stack",
-      "source": "https://github.com/Qballjos/portainer_templates/raw/refs/heads/master/Template/Stack/bookstack.yml",
-      "content_hash": "3ff12d6109ff864faa7fd2c004b647ee8747d237ba446c9db60b9a4293c0b654"
+      "source": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/bookstack.yml",
+      "content_hash": "f9ca992004539fc72466a8f82c0b1e06b18197d647f43e69f895834b29eeb6fa"
     },
     {
       "id": "cops",
@@ -304,8 +304,8 @@
       "source_name": "invoice_ninja",
       "type": 3,
       "kind": "stack",
-      "source": "https://github.com/Qballjos/portainer_templates/raw/refs/heads/master/Template/Stack/invoice-ninja.yml",
-      "content_hash": "4e39d4e0692ba9717ed9bf5b26867ed563f9987228086a171c859beefb32c6dc"
+      "source": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/invoice-ninja.yml",
+      "content_hash": "a94b01ab3ad6fc8d1c49fe623c1552d25ec035e5cf981e4475c7f1714d8729f2"
     },
     {
       "id": "jackett",
@@ -480,8 +480,8 @@
       "source_name": "nextcloud",
       "type": 3,
       "kind": "stack",
-      "source": "https://github.com/Qballjos/portainer_templates/raw/refs/heads/master/Template/Stack/nextcloud.yml",
-      "content_hash": "63af40c7a2e6054e301cecd77bf5fa7bc3707988ff76d8a48537d0c19fca7377"
+      "source": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/nextcloud.yml",
+      "content_hash": "36ec1c34f9a88c7a3ff2383fa6dd35f92031ad34758371a478632297daea7230"
     },
     {
       "id": "nginx",
@@ -544,8 +544,8 @@
       "source_name": "Owncloud",
       "type": 3,
       "kind": "stack",
-      "source": "https://github.com/Qballjos/portainer_templates/raw/refs/heads/master/Template/Stack/owncloud.yml",
-      "content_hash": "6c36701977ffc52a3d64a50f3e29476168b15fa1813b17245ad5dcb0984541bf"
+      "source": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/owncloud.yml",
+      "content_hash": "b31c5121526120c20711916cd9b0dcdf9fd70afab2c9763f525bf9287d9e2d70"
     },
     {
       "id": "passky-client",
@@ -568,8 +568,8 @@
       "source_name": "Petio",
       "type": 3,
       "kind": "stack",
-      "source": "https://github.com/Qballjos/portainer_templates/raw/refs/heads/master/Template/Stack/petio.yml",
-      "content_hash": "7957365ea21cca36740f7cd66538b11867d5a85b2e8f3d6ec3a127580d00ad88"
+      "source": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/petio.yml",
+      "content_hash": "6f88ea10bcad697fc59eeb75347c41abcc6ff3f518a37e7caf83b4407ccf1887"
     },
     {
       "id": "photoshow",

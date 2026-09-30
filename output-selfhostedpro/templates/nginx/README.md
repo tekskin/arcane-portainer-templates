@@ -6,7 +6,7 @@ Nginx is a web server with a strong focus on high concurrency, performance and l
 - **Original Portainer name:** `nginx`
 - **Categories:** Web, Proxy
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

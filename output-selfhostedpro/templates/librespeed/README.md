@@ -6,7 +6,7 @@ A Free and Open Source Speedtest for HTML5 and more.
 - **Original Portainer name:** `librespeed`
 - **Categories:** Other, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

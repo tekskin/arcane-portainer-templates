@@ -1,6 +1,6 @@
 services:
   jellyfin:
-    image: lscr.io/linuxserver/jellyfin:latest
+    image: linuxserver/jellyfin:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'
@@ -9,7 +9,7 @@ services:
       - '8096:8096/tcp'
       - '8920:8920/tcp'
     volumes:
-      - '${PORTAINER_ROOT}/Files/AppData/Config/Jelllyfin:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Jellyfin:/config'
       - '${PORTAINER_ROOT}/TV:/data/tvshows'
       - '${PORTAINER_ROOT}/Movies:/data/movies'
     restart: 'unless-stopped'

@@ -3,17 +3,11 @@ services:
     image: linuxserver/mariadb:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD:-ROOT_ACCESS_PASSWORD}'
-      MYSQL_DATABASE: '${MYSQL_DATABASE:-USER_DB_NAME}'
-      MYSQL_USER: '${MYSQL_USER:-MYSQL_USER}'
-      MYSQL_PASSWORD: '${MYSQL_PASSWORD:-DATABASE_PASSWORD}'
-      REMOTE_SQL: '${REMOTE_SQL:-http://URL1/your.sql,https://URL2/your.sql}'
-      CLI_OPTS: '${CLI_OPTS:-}'
+      PGID: '${PGID:-100}'
+      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD:-}'
     ports:
       - '3306:3306/tcp'
     volumes:
-      - '/srv/lsio/mariadb/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Mariadb:/config'
     restart: 'unless-stopped'
     platform: 'linux'

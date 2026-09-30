@@ -1,6 +1,6 @@
 services:
   lidarr:
-    image: lscr.io/linuxserver/lidarr:latest
+    image: hotio/lidarr:release
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

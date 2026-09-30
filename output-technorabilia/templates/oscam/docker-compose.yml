@@ -3,11 +3,11 @@ services:
     image: linuxserver/oscam:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
       - '8888:8888/tcp'
+      - '10000:10000/tcp'
     volumes:
-      - '/srv/lsio/oscam/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/OScam:/config'
     restart: 'unless-stopped'
     platform: 'linux'

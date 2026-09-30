@@ -1,22 +1,9 @@
 services:
   librespeed:
     image: linuxserver/librespeed:latest
-    environment:
-      PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      PASSWORD: '${PASSWORD:-PASSWORD}'
-      CUSTOM_RESULTS: '${CUSTOM_RESULTS:-false}'
-      DB_TYPE: '${DB_TYPE:-sqlite}'
-      DB_NAME: '${DB_NAME:-DB_NAME}'
-      DB_HOSTNAME: '${DB_HOSTNAME:-DB_HOSTNAME}'
-      DB_USERNAME: '${DB_USERNAME:-DB_USERNAME}'
-      DB_PASSWORD: '${DB_PASSWORD:-DB_PASSWORD}'
-      DB_PORT: '${DB_PORT:-DB_PORT}'
-      IPINFO_APIKEY: '${IPINFO_APIKEY:-ACCESS_TOKEN}'
     ports:
-      - '80:80/tcp'
+      - '80/tcp'
     volumes:
-      - '/srv/lsio/librespeed/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/LibreSpeed:/config'
     restart: 'unless-stopped'
     platform: 'linux'

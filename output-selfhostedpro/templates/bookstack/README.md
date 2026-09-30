@@ -6,7 +6,7 @@ Bookstack is a free and open source Wiki designed for creating beautiful documen
 - **Original Portainer name:** ``
 - **Categories:** Wiki
 - **Source type:** Portainer `3`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/Stack/bookstack.yml
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/bookstack.yml
 
 ## Original Portainer notes
 

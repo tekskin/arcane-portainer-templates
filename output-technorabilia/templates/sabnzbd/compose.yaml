@@ -3,13 +3,13 @@ services:
     image: linuxserver/sabnzbd:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
       - '8080:8080/tcp'
+      - '9090:9090/tcp'
     volumes:
-      - '/srv/lsio/sabnzbd/config:/config'
-      - '/srv/lsio/sabnzbd/incomplete-downloads:/incomplete-downloads'
-      - '/srv/lsio/sabnzbd/downloads:/downloads'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Sabnzbd:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+      - '${PORTAINER_ROOT}/Downloads/incomplete:/incomplete-downloads'
     restart: 'unless-stopped'
     platform: 'linux'

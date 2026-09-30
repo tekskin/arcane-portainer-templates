@@ -1,6 +1,6 @@
 services:
   sonarr:
-    image: lscr.io/linuxserver/sonarr:latest
+    image: hotio/sonarr:release
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

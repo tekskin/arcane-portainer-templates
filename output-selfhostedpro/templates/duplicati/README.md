@@ -6,7 +6,7 @@ Free backup software to store encrypted backups online, Duplicati works with sta
 - **Original Portainer name:** `duplicati`
 - **Categories:** Backup, Cloud, Other, Productivity, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

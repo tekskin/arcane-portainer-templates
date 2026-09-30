@@ -1,0 +1,9 @@
+services:
+  huginn:
+    image: huginn/huginn:latest
+    ports:
+      - '3000:3000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/huginn:/var/lib/mysql'
+    restart: 'unless-stopped'
+    platform: 'linux'

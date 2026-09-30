@@ -3,15 +3,11 @@ services:
     image: linuxserver/plex:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      VERSION: '${VERSION:-docker}'
-      PLEX_CLAIM: '${PLEX_CLAIM:-}'
-    ports:
-      - '80:80/tcp'
+      PGID: '${PGID:-100}'
+      VERSION: '${VERSION:-latest}'
     volumes:
-      - '/srv/lsio/plex/config:/config'
-      - '/srv/lsio/plex/tv:/tv'
-      - '/srv/lsio/plex/movies:/movies'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Plex:/config'
+      - '${PORTAINER_ROOT}/TV:/tv'
+      - '${PORTAINER_ROOT}/Movies:/movies'
     restart: 'unless-stopped'
     platform: 'linux'

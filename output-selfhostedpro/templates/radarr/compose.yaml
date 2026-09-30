@@ -1,6 +1,6 @@
 services:
   radarr:
-    image: lscr.io/linuxserver/radarr:latest
+    image: hotio/radarr:release
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

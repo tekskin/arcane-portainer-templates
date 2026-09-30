@@ -1,16 +1,12 @@
-# Sickgear
+# SickGear
 
-[SickGear](https://github.com/sickgear/sickgear) provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear
+SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.
 
 - **Arcane template ID:** `sickgear`
-- **Original Portainer name:** `Sickgear`
-- **Categories:** Media Management
+- **Original Portainer name:** `sickgear`
+- **Categories:** Downloaders, Video
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/sickgear/configmkdir -p /srv/lsio/sickgear/tvmkdir -p /srv/lsio/sickgear/downloads
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

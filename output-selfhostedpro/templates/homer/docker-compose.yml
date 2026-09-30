@@ -1,6 +1,9 @@
 services:
   homer:
     image: b4bz/homer:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
     ports:
       - '8902:8080/tcp'
     volumes:

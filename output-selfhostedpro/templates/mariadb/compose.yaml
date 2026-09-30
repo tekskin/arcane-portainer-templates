@@ -1,6 +1,6 @@
 services:
   mariadb:
-    image: lscr.io/linuxserver/mariadb:latest
+    image: linuxserver/mariadb:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

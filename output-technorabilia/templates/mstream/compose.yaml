@@ -1,14 +1,10 @@
 services:
   mstream:
     image: linuxserver/mstream:latest
-    environment:
-      PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
     ports:
       - '3000:3000/tcp'
     volumes:
-      - '/srv/lsio/mstream/config:/config'
-      - '/srv/lsio/mstream/music:/music'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Mstream:/config'
+      - '${PORTAINER_ROOT}/Downloads:/music'
     restart: 'unless-stopped'
     platform: 'linux'

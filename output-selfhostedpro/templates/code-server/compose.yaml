@@ -1,6 +1,6 @@
 services:
   code-server:
-    image: lscr.io/linuxserver/code-server:latest
+    image: linuxserver/code-server:latest
     environment:
       PUID: '${PUID:-1000}'
       GUID: '${GUID:-1000}'

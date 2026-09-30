@@ -1,6 +1,6 @@
 services:
   mylar:
-    image: lscr.io/linuxserver/mylar:latest
+    image: linuxserver/mylar:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

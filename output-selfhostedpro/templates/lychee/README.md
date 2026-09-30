@@ -6,7 +6,7 @@ Lychee is a free photo-management tool, which runs on your server or web-space. 
 - **Original Portainer name:** `lychee`
 - **Categories:** Cloud, Web, Management, Photos
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

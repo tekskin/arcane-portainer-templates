@@ -1,6 +1,6 @@
 services:
   davos:
-    image: lscr.io/linuxserver/davos:latest
+    image: linuxserver/davos:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

@@ -6,7 +6,7 @@ ZNC is an IRC network bouncer or BNC. It can detach the client from the actual I
 - **Original Portainer name:** `znc`
 - **Categories:** Messenger
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

@@ -1,6 +1,6 @@
 services:
   piwigo:
-    image: lscr.io/linuxserver/piwigo:latest
+    image: linuxserver/piwigo:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

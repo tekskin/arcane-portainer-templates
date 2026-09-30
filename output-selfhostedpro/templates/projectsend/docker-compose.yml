@@ -1,6 +1,6 @@
 services:
   projectsend:
-    image: lscr.io/linuxserver/projectsend:latest
+    image: linuxserver/projectsend:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

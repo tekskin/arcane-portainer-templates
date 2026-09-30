@@ -4,6 +4,6 @@ services:
     ports:
       - '80/tcp'
     volumes:
-      - '${PORTAINER_ROOT}/Files/AppData/Config/Vaultwarden:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Vaultwarden:/data'
     restart: 'unless-stopped'
     platform: 'linux'

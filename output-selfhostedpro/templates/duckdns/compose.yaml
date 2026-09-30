@@ -1,6 +1,6 @@
 services:
   duckdns:
-    image: lscr.io/linuxserver/duckdns:latest
+    image: linuxserver/duckdns:latest
     environment:
       SUBDOMAINS: '${SUBDOMAINS:-}'
       TOKEN: '${TOKEN:-}'

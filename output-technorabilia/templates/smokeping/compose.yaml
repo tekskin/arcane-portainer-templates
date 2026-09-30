@@ -3,15 +3,11 @@ services:
     image: linuxserver/smokeping:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      MASTER_URL: '${MASTER_URL:-http://<master-host-ip>:80/smokeping/}'
-      SHARED_SECRET: '${SHARED_SECRET:-password}'
-      CACHE_DIR: '${CACHE_DIR:-/tmp}'
+      PGID: '${PGID:-100}'
     ports:
-      - '80:80/tcp'
+      - '80/tcp'
     volumes:
-      - '/srv/lsio/smokeping/config:/config'
-      - '/srv/lsio/smokeping/data:/data'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Smokeping:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Smokeping:/data'
     restart: 'unless-stopped'
     platform: 'linux'

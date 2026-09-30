@@ -1,6 +1,6 @@
 services:
   jackett:
-    image: lscr.io/linuxserver/jackett:latest
+    image: linuxserver/jackett:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

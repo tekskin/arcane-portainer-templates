@@ -1,6 +1,6 @@
 services:
   musicbrainz:
-    image: lscr.io/linuxserver/musicbrainz:latest
+    image: linuxserver/musicbrainz:latest
     environment:
       BRAINZCODE: '${BRAINZCODE:-}'
       PUID: '${PUID:-1000}'

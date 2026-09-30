@@ -1,6 +1,6 @@
 services:
   openvpn-as:
-    image: lscr.io/linuxserver/openvpn-as:latest
+    image: linuxserver/openvpn-as:latest
     environment:
       INTERFACE: '${INTERFACE:-eth0}'
       PUID: '${PUID:-1000}'

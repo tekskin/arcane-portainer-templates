@@ -1,6 +1,6 @@
 services:
   kodi-headless:
-    image: lscr.io/linuxserver/kodi-headless:latest
+    image: linuxserver/kodi-headless:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

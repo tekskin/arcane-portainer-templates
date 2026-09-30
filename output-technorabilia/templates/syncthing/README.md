@@ -1,16 +1,12 @@
-# Syncthing
+# SyncThing
 
-[Syncthing](https://syncthing.net) replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 
 - **Arcane template ID:** `syncthing`
-- **Original Portainer name:** `Syncthing`
-- **Categories:** Backup
+- **Original Portainer name:** `syncthing`
+- **Categories:** Backup, Cloud, Other, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/syncthing/configmkdir -p /srv/lsio/syncthing/data1mkdir -p /srv/lsio/syncthing/data2
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

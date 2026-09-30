@@ -1,0 +1,12 @@
+services:
+  overseerr:
+    image: hotio/overseerr:release
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '5055:5055/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Overseerr:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

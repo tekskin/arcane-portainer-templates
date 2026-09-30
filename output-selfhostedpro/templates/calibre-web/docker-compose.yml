@@ -1,6 +1,6 @@
 services:
   calibre-web:
-    image: lscr.io/linuxserver/calibre-web:latest
+    image: linuxserver/calibre-web:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

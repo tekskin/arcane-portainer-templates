@@ -1,16 +1,12 @@
-# Mariadb
+# MariaDB
 
-[Mariadb](https://mariadb.org/) is one of the most popular database servers. Made by the original developers of MySQL.
+An Enhanced drop in replacement for Mysql.
 
 - **Arcane template ID:** `mariadb`
-- **Original Portainer name:** `Mariadb`
-- **Categories:** Databases
+- **Original Portainer name:** `mariadb`
+- **Categories:** Other, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/mariadb/config
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

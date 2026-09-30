@@ -1,6 +1,6 @@
 services:
   lazylibrarian:
-    image: lscr.io/linuxserver/lazylibrarian:latest
+    image: linuxserver/lazylibrarian:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

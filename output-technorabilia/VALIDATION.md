@@ -1,7 +1,7 @@
 # Validation
 
-- Source templates found: **201**
-- Converted successfully: **201**
+- Source templates found: **112**
+- Converted successfully: **112**
 - Failed conversion: **0**
 - Registry structural validation: **PASS**
 

@@ -1,6 +1,6 @@
 services:
   minetest:
-    image: lscr.io/linuxserver/minetest:latest
+    image: linuxserver/minetest:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

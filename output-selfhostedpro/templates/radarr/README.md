@@ -6,7 +6,7 @@ Radarr - A fork of Sonarr to work with movies à la Couchpotato.
 - **Original Portainer name:** `radarr`
 - **Categories:** Downloaders, Video
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

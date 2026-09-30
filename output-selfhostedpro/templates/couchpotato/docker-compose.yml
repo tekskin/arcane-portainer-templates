@@ -1,6 +1,6 @@
 services:
   couchpotato:
-    image: lscr.io/linuxserver/couchpotato:latest
+    image: linuxserver/couchpotato:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

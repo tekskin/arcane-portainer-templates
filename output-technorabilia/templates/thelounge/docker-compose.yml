@@ -3,11 +3,10 @@ services:
     image: linuxserver/thelounge:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
       - '9000:9000/tcp'
     volumes:
-      - '/srv/lsio/thelounge/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/TheLounge:/config'
     restart: 'unless-stopped'
     platform: 'linux'

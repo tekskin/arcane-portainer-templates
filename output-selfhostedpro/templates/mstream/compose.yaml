@@ -1,6 +1,6 @@
 services:
   mstream:
-    image: lscr.io/linuxserver/mstream:latest
+    image: linuxserver/mstream:latest
     ports:
       - '3000:3000/tcp'
     volumes:

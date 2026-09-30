@@ -6,7 +6,7 @@ Invoices, Expenses and Tasks built with Laravel and Flutter.
 - **Original Portainer name:** `invoice_ninja`
 - **Categories:** Cloud, Productivity, Tools, Other, Web
 - **Source type:** Portainer `3`
-- **Original source:** https://github.com/Qballjos/portainer_templates/raw/refs/heads/master/Template/Stack/invoice-ninja.yml
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/Stack/invoice-ninja.yml
 
 ## Original Portainer notes
 

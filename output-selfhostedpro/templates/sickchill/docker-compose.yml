@@ -1,6 +1,6 @@
 services:
   sickchill:
-    image: lscr.io/linuxserver/sickchill:latest
+    image: linuxserver/sickchill:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

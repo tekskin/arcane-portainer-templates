@@ -3,14 +3,10 @@ services:
     image: linuxserver/resilio-sync:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-    ports:
-      - '8888:8888/tcp'
-      - '55555:55555/tcp'
+      PGID: '${PGID:-100}'
     volumes:
-      - '/srv/lsio/resilio-sync/config:/config'
-      - '/srv/lsio/resilio-sync/downloads:/downloads'
-      - '/srv/lsio/resilio-sync/sync:/sync'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Resilio-Sync:/config'
+      - '/sync'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
     restart: 'unless-stopped'
     platform: 'linux'

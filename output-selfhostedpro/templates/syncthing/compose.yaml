@@ -1,6 +1,6 @@
 services:
   syncthing:
-    image: lscr.io/linuxserver/syncthing:latest
+    image: linuxserver/syncthing:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

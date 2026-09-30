@@ -1,6 +1,6 @@
 services:
   codiad:
-    image: lscr.io/linuxserver/codiad:latest
+    image: linuxserver/codiad:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

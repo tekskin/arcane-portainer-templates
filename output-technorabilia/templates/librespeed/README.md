@@ -1,16 +1,12 @@
-# Librespeed
+# LibreSpeed
 
-[Librespeed](https://github.com/librespeed/speedtest) is a very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
+A Free and Open Source Speedtest for HTML5 and more.
 
 - **Arcane template ID:** `librespeed`
-- **Original Portainer name:** `Librespeed`
-- **Categories:** Monitoring
+- **Original Portainer name:** `librespeed`
+- **Categories:** Other, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/librespeed/config
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

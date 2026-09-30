@@ -1,6 +1,6 @@
 services:
   unifi-controller:
-    image: lscr.io/linuxserver/unifi-controller:latest
+    image: linuxserver/unifi-controller:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

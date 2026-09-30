@@ -6,7 +6,7 @@ The qBittorrent project aims to provide an open-source software alternative to Â
 - **Original Portainer name:** `qbittorrent`
 - **Categories:** Downloaders
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

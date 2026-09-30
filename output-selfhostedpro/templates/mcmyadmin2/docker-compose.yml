@@ -1,6 +1,6 @@
 services:
   mcmyadmin2:
-    image: lscr.io/linuxserver/mcmyadmin2:latest
+    image: linuxserver/mcmyadmin2:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

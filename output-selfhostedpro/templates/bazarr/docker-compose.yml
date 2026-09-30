@@ -1,6 +1,6 @@
 services:
   bazarr:
-    image: lscr.io/linuxserver/bazarr:latest
+    image: hotio/bazarr:release
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

@@ -1,6 +1,6 @@
 services:
   headphones:
-    image: lscr.io/linuxserver/headphones:latest
+    image: linuxserver/headphones:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

@@ -1,16 +1,12 @@
-# Oscam
+# OScam
 
-[Oscam](https://git.streamboard.tv/common/oscam) is an Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
+OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module (CAM). The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.
 
 - **Arcane template ID:** `oscam`
-- **Original Portainer name:** `Oscam`
-- **Categories:** Media Tools
+- **Original Portainer name:** `oscam`
+- **Categories:** Other
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json
-
-## Original Portainer notes
-
-Portainer App Templates by Technorabilia, based on data provided by LinuxServer.io.Ensure to create the following volume directories on the host file system, or modify the paths in the volume mapping section under the advanced options below, as needed.mkdir -p /srv/lsio/oscam/config
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

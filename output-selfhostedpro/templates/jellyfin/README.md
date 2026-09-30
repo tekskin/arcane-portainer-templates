@@ -6,7 +6,7 @@ Jellyfin is a Free Software Media System that puts you in control of managing an
 - **Original Portainer name:** `jellyfin`
 - **Categories:** Video, Music, Photos
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

@@ -3,13 +3,11 @@ services:
     image: linuxserver/cops:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
-      - '80:80/tcp'
-      - '443:443/tcp'
+      - '80/tcp'
     volumes:
-      - '/srv/lsio/cops/config:/config'
-      - '/srv/lsio/cops/books:/books'
+      - '${PORTAINER_ROOT}/Books:/books'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Cops:/config'
     restart: 'unless-stopped'
     platform: 'linux'

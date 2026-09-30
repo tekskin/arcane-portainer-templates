@@ -3,12 +3,11 @@ services:
     image: linuxserver/davos:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
-      - '8080:8080/tcp'
+      - '8080/tcp'
     volumes:
-      - '/srv/lsio/davos/config:/config'
-      - '/srv/lsio/davos/download:/download'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Davos:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
     restart: 'unless-stopped'
     platform: 'linux'

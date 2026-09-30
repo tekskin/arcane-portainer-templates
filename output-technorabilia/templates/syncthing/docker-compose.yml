@@ -3,16 +3,13 @@ services:
     image: linuxserver/syncthing:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
+      PGID: '${PGID:-100}'
     ports:
       - '8384:8384/tcp'
-      - '22000:22000/tcp'
-      - '22000:22000/udp'
       - '21027:21027/udp'
+      - '22000:22000/tcp'
     volumes:
-      - '/srv/lsio/syncthing/config:/config'
-      - '/srv/lsio/syncthing/data1:/data1'
-      - '/srv/lsio/syncthing/data2:/data2'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Syncthing:/config'
+      - '/sync'
     restart: 'unless-stopped'
     platform: 'linux'

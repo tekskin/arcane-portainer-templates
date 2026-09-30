@@ -1,6 +1,6 @@
 services:
   domoticz:
-    image: lscr.io/linuxserver/domoticz:latest
+    image: linuxserver/domoticz:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

@@ -3,21 +3,13 @@ services:
     image: linuxserver/transmission:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      TRANSMISSION_WEB_HOME: '${TRANSMISSION_WEB_HOME:-}'
-      USER: '${USER:-}'
-      PASS: '${PASS:-}'
-      WHITELIST: '${WHITELIST:-}'
-      PEERPORT: '${PEERPORT:-}'
-      HOST_WHITELIST: '${HOST_WHITELIST:-}'
+      PGID: '${PGID:-100}'
     ports:
       - '9091:9091/tcp'
       - '51413:51413/tcp'
-      - '51413:51413/udp'
     volumes:
-      - '/srv/lsio/transmission/config:/config'
-      - '/srv/lsio/transmission/downloads:/downloads'
-      - '/srv/lsio/transmission/watch:/watch'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Transmission:/config'
+      - '${PORTAINER_ROOT}/Files/Downloads:/downloads'
+      - '/watch'
     restart: 'unless-stopped'
     platform: 'linux'

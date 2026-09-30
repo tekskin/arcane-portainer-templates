@@ -1,12 +1,12 @@
 # Grocy
 
-Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity.
+Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.
 
 - **Arcane template ID:** `grocy`
 - **Original Portainer name:** `grocy`
 - **Categories:** Other, Tools, Finance
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

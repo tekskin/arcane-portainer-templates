@@ -1,6 +1,6 @@
 services:
   tautulli:
-    image: lscr.io/linuxserver/tautulli:latest
+    image: linuxserver/tautulli:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

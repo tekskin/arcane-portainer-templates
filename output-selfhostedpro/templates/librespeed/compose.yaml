@@ -1,6 +1,6 @@
 services:
   librespeed:
-    image: lscr.io/linuxserver/librespeed:latest
+    image: linuxserver/librespeed:latest
     ports:
       - '80/tcp'
     volumes:

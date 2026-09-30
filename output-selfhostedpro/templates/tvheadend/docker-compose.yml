@@ -1,6 +1,6 @@
 services:
   tvheadend:
-    image: lscr.io/linuxserver/tvheadend:latest
+    image: linuxserver/tvheadend:latest
     environment:
       PUID: '${PUID:-1000}'
       PGID: '${PGID:-100}'

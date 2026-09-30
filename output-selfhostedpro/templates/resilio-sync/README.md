@@ -6,7 +6,7 @@ Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync fil
 - **Original Portainer name:** `resilio-sync`
 - **Categories:** Backup, Cloud, Other, Tools
 - **Source type:** Portainer `1`
-- **Original source:** https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json
+- **Original source:** https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json
 
 ## Conversion notes
 

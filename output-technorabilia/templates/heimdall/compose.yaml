@@ -3,13 +3,11 @@ services:
     image: linuxserver/heimdall:latest
     environment:
       PUID: '${PUID:-1000}'
-      PGID: '${PGID:-1000}'
-      TZ: '${TZ:-Etc/UTC}'
-      ALLOW_INTERNAL_REQUESTS: '${ALLOW_INTERNAL_REQUESTS:-false}'
+      PGID: '${PGID:-100}'
     ports:
-      - '80:80/tcp'
-      - '443:443/tcp'
+      - '80/tcp'
+      - '443/tcp'
     volumes:
-      - '/srv/lsio/heimdall/config:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Heimdall:/config'
     restart: 'unless-stopped'
     platform: 'linux'
