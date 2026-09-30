@@ -41,10 +41,48 @@ output/
   VALIDATION.md
   templates/
     <template-id>/
-      compose.yaml
+      docker-compose.yml
       .env.example
       README.md
 ```
+
+### Alternate Portainer source registry
+
+To generate a separate Arcane registry from a different Portainer source such as the Technorabilia LSIO template set, run:
+
+```powershell
+python .\build_arcane_registry.py `
+  --source-url https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json `
+  --base-url https://example.com/arcane-portainer-templates/technorabilia `
+  --output output-technorabilia
+```
+
+This creates a second registry under:
+
+```text
+output-technorabilia/
+  registry.json
+  conversion-report.json
+  VALIDATION.md
+  templates/
+    <template-id>/
+      docker-compose.yml
+      .env.example
+      README.md
+```
+
+### Third source: SelfhostedPro Portainer v2
+
+To generate a third Arcane registry from the SelfhostedPro Portainer source, run:
+
+```powershell
+python .\build_arcane_registry.py `
+  --source-url https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json `
+  --base-url https://example.com/arcane-portainer-templates/selfhostedpro `
+  --output output-selfhostedpro
+```
+
+This source is compatible with the converter for the valid templates. One upstream stack item (`pritunl`) has a broken stackfile reference in the source repository, so the converter skips that entry and reports it in the conversion report while the remaining registry still validates successfully.
 
 ### GitHub Pages / raw GitHub
 

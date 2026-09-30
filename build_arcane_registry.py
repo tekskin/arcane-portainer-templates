@@ -19,11 +19,13 @@ Usage:
 The base URL must be the public HTTPS directory containing registry.json and
 the generated templates/ directory. The script writes:
   output/registry.json
-  output/templates/<id>/compose.yaml
+  output/templates/<id>/docker-compose.yml
   output/templates/<id>/.env.example
   output/templates/<id>/README.md
   output/conversion-report.json
   output/VALIDATION.md
+
+Each template also includes a compatibility copy at `compose.yaml` when needed.
 
 No third-party Python packages are required for generation.
 If jsonschema is installed, the script will also validate registry.json against
@@ -33,6 +35,7 @@ the live Arcane Draft-07 schema.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -64,8 +67,8 @@ def fetch_text(url: str) -> str:
 def fetch_json(url: str) -> Any:
     return json.loads(fetch_text(url))
 
-def slug(value: str) -> str:
-    s = value.strip().lower()
+def slug(value: Any) -> str:
+    s = str(value or "").strip().lower()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return s or "template"
@@ -191,9 +194,16 @@ def build_single_compose(t: dict[str, Any], template_id: str) -> tuple[str, str]
     return compose, env
 
 def source_stack_url(t: dict[str, Any]) -> str:
-    repo = t["repository"]["url"].rstrip("/")
-    # All current entries point to Qballjos/portainer_templates master.
-    path = t["repository"]["stackfile"].lstrip("/")
+    repo = str(t["repository"]["url"]).rstrip("/")
+    path = str(t["repository"]["stackfile"]).lstrip("/")
+
+    if repo.startswith("https://github.com/"):
+        repo_path = repo.removeprefix("https://github.com/")
+        return f"https://raw.githubusercontent.com/{repo_path}/{DEFAULT_SOURCE_BRANCH}/{path}"
+
+    if repo.startswith("https://raw.githubusercontent.com/"):
+        return f"{repo.rstrip('/')}/{path}"
+
     return f"{repo}/raw/refs/heads/{DEFAULT_SOURCE_BRANCH}/{path}"
 
 def stack_env(t: dict[str, Any]) -> str:
@@ -219,13 +229,13 @@ def html_to_text(value: str) -> str:
 
 def build_readme(t: dict[str, Any], template_id: str, compose_kind: str, source_url: str) -> str:
     name = t.get("title") or t.get("name") or template_id
-    desc = t.get("description", "").strip()
+    desc = str(t.get("description") or "").strip()
     note = html_to_text(str(t.get("note", "") or ""))
     cats = ", ".join(str(x) for x in (t.get("categories") or [])) or "Other"
     lines = [
         f"# {name}",
         "",
-        desc,
+        desc or "No description was provided in the source Portainer template.",
         "",
         f"- **Arcane template ID:** `{template_id}`",
         f"- **Original Portainer name:** `{t.get('name', '')}`",
@@ -254,17 +264,29 @@ def build_readme(t: dict[str, Any], template_id: str, compose_kind: str, source_
         ]
     return "\n".join(lines)
 
-def make_registry_entry(t: dict[str, Any], template_id: str, base_url: str, source_url: str) -> dict[str, Any]:
+def template_content_hash(template_dir: Path) -> str:
+    digest = hashlib.sha256()
+    for name in ["docker-compose.yml", ".env.example", "README.md"]:
+        path = template_dir / name
+        if path.exists():
+            digest.update(path.read_bytes())
+            digest.update(b"\n")
+    return digest.hexdigest()
+
+
+def make_registry_entry(t: dict[str, Any], template_id: str, base_url: str, content_hash: str) -> dict[str, Any]:
     name = str(t.get("title") or t.get("name") or template_id)
+    description = str(t.get("description") or "").strip()
     entry = {
         "id": template_id,
         "name": name,
-        "description": str(t.get("description", "") or "").strip() or f"Portainer template: {name}",
+        "description": description or f"Portainer template: {name}",
         "version": "1.0.0",
         "author": "Qballjos/portainer_templates",
-        "compose_url": f"{base_url}/templates/{template_id}/compose.yaml",
+        "compose_url": f"{base_url}/templates/{template_id}/docker-compose.yml",
         "env_url": f"{base_url}/templates/{template_id}/.env.example",
         "documentation_url": f"{base_url}/templates/{template_id}/README.md",
+        "content_hash": content_hash,
         "tags": [slug(x) for x in (t.get("categories") or []) if str(x).strip()],
     }
     if not entry["tags"]:
@@ -292,7 +314,7 @@ def validate_shape(registry: dict[str, Any]) -> list[str]:
         extra = set(t) - allowed_template
         if extra:
             errors.append(f"Template {i} ({t.get('id')}): extra fields {sorted(extra)}")
-        for k in ["id", "name", "description", "version", "author", "compose_url", "tags"]:
+        for k in ["id", "name", "description", "version", "author", "compose_url", "env_url", "documentation_url", "content_hash", "tags"]:
             if k not in t:
                 errors.append(f"Template {i}: missing {k}")
         if t.get("id") in ids:
@@ -316,7 +338,7 @@ def main():
     base_url = args.base_url.rstrip("/")
     output = Path(args.output)
     if output.exists():
-        shutil.rmtree(output)
+        shutil.rmtree(output, ignore_errors=True)
     (output / "templates").mkdir(parents=True)
 
     print(f"Fetching source: {args.source_url}")
@@ -354,6 +376,8 @@ def main():
             else:
                 raise RuntimeError("No image and no supported repository stack reference.")
 
+            compose_file = td / "docker-compose.yml"
+            compose_file.write_text(compose, encoding="utf-8", newline="\n")
             (td / "compose.yaml").write_text(compose, encoding="utf-8", newline="\n")
             (td / ".env.example").write_text(env, encoding="utf-8", newline="\n")
             (td / "README.md").write_text(
@@ -361,13 +385,15 @@ def main():
                 encoding="utf-8", newline="\n"
             )
 
-            entries.append(make_registry_entry(t, tid, base_url, compose_source))
+            content_hash = template_content_hash(td)
+            entries.append(make_registry_entry(t, tid, base_url, content_hash))
             report["converted"].append({
                 "id": tid,
                 "source_name": original_name,
                 "type": t.get("type"),
                 "kind": kind,
                 "source": compose_source,
+                "content_hash": content_hash,
             })
             print(f"[{idx:3}/{len(templates)}] OK  {tid}")
         except Exception as exc:

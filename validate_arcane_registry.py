@@ -6,7 +6,6 @@ import urllib.request
 
 SCHEMA_URLS = [
     "https://registry.getarcane.app/schema.json",
-    "https://raw.githubusercontent.com/getarcaneapp/arcane-templates/main/schema.json",
 ]
 
 def fetch(url):
