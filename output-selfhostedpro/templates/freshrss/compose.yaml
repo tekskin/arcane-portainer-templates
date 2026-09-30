@@ -1,0 +1,12 @@
+services:
+  freshrss:
+    image: lscr.io/linuxserver/freshrss:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/freshrss:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

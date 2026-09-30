@@ -1,0 +1,10 @@
+services:
+  wikijs:
+    image: lscr.io/linuxserver/wikijs:latest
+    ports:
+      - '3100:3000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Wikijs:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Wikijs/data:/data'
+    restart: 'unless-stopped'
+    platform: 'linux'

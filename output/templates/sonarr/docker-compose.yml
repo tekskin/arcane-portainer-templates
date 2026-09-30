@@ -1,0 +1,15 @@
+services:
+  sonarr:
+    image: hotio/sonarr:release
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8989:8989/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Sonarr:/config'
+      - '/dev/rtc:/dev/rtc'
+      - '${PORTAINER_ROOT}/TV:/tv'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

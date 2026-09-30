@@ -1,0 +1,10 @@
+services:
+  mstream:
+    image: lscr.io/linuxserver/mstream:latest
+    ports:
+      - '3000:3000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Mstream:/config'
+      - '${PORTAINER_ROOT}/Downloads:/music'
+    restart: 'unless-stopped'
+    platform: 'linux'

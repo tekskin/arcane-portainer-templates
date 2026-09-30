@@ -1,0 +1,14 @@
+services:
+  duckstation:
+    image: linuxserver/duckstation:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-1000}'
+      TZ: '${TZ:-Etc/UTC}'
+    ports:
+      - '3000:3000/tcp'
+      - '3001:3001/tcp'
+    volumes:
+      - '/srv/lsio/duckstation/config:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

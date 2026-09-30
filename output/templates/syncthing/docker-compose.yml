@@ -1,0 +1,15 @@
+services:
+  syncthing:
+    image: linuxserver/syncthing:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8384:8384/tcp'
+      - '21027:21027/udp'
+      - '22000:22000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Syncthing:/config'
+      - '/sync'
+    restart: 'unless-stopped'
+    platform: 'linux'

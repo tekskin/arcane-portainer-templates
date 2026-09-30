@@ -1,0 +1,14 @@
+services:
+  medusa:
+    image: linuxserver/medusa:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8081:8081/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Medusa:/config'
+      - '${PORTAINER_ROOT}/TV:/tv'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

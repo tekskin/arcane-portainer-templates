@@ -1,0 +1,15 @@
+services:
+  rutorrent:
+    image: lscr.io/linuxserver/rutorrent:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+      - '51413:51413/tcp'
+      - '6881:6881/udp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/ruTorrent:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

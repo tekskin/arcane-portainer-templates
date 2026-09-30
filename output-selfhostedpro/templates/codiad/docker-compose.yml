@@ -1,0 +1,12 @@
+services:
+  codiad:
+    image: lscr.io/linuxserver/codiad:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Codiad:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

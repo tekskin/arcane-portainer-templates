@@ -1,0 +1,13 @@
+services:
+  davos:
+    image: lscr.io/linuxserver/davos:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8080/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Davos:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

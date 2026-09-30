@@ -1,0 +1,12 @@
+services:
+  deluge:
+    image: lscr.io/linuxserver/deluge:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      UMASK: '${UMASK:-000}'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Deluge:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

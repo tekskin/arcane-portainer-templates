@@ -1,0 +1,15 @@
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '6881:6881/tcp'
+      - '6881:6881/udp'
+      - '8080:8080/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/qBittorrent:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,13 @@
+services:
+  projectsend:
+    image: linuxserver/projectsend:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/ProjectSend:/data'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/ProjectSend:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

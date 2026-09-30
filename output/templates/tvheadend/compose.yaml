@@ -1,0 +1,14 @@
+services:
+  tvheadend:
+    image: linuxserver/tvheadend:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '9981:9981/tcp'
+      - '9982:9982/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/TVHeadend:/config'
+      - '/recordings'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,15 @@
+services:
+  openvpn-as:
+    image: lscr.io/linuxserver/openvpn-as:latest
+    environment:
+      INTERFACE: '${INTERFACE:-eth0}'
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '943:943/tcp'
+      - '9443:9443/tcp'
+      - '1194:1194/udp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/OpenVPN-AS:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

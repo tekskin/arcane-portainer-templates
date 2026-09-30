@@ -1,0 +1,12 @@
+services:
+  organizr-v2:
+    image: organizrtools/organizr-v2:php-fpm
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Organizr:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,13 @@
+services:
+  prowlarr:
+    image: linuxserver/prowlarr:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-1000}'
+      TZ: '${TZ:-Etc/UTC}'
+    ports:
+      - '9696:9696/tcp'
+    volumes:
+      - '/srv/lsio/prowlarr/config:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

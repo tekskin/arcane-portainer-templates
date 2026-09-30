@@ -1,0 +1,14 @@
+services:
+  lidarr:
+    image: hotio/lidarr:release
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8686:8686/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Lidarr:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+      - '${PORTAINER_ROOT}/Music:/music'
+    restart: 'unless-stopped'
+    platform: 'linux'

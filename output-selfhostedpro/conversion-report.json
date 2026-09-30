@@ -1,0 +1,857 @@
+{
+  "source_url": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+  "source_version": "2",
+  "source_template_count": 106,
+  "converted": [
+    {
+      "id": "airsonic",
+      "source_name": "airsonic",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "b2552f13e358f741f2218b0ce16903cfba9255bbd967b9fc5e1b3a934b0596c4"
+    },
+    {
+      "id": "authelia",
+      "source_name": "authelia",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "d3c6c9dcf45e410f29258eea99faa5d3b745a80817609ada3f68210f24429432"
+    },
+    {
+      "id": "bazarr",
+      "source_name": "bazarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "03fe0e53efb41db4778a7bd558c9c3fef206a67c405038a2fd065d140ccd07f6"
+    },
+    {
+      "id": "beets",
+      "source_name": "beets",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "18c7eeac82a1056a671e478c3c3c1d42f8a4677ed964de3691acb41ef37fa2a4"
+    },
+    {
+      "id": "booksonic",
+      "source_name": "booksonic",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "9d5980a0f0d05e9ede716c6df397ae304bbbc31dce17381ee2a91388f0267ac0"
+    },
+    {
+      "id": "embystat",
+      "source_name": "embystat",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "0084ffb3bf58425e5b93ec3c1d355d2ca526a3b23a3d96dca8c0973d733f1893"
+    },
+    {
+      "id": "headphones",
+      "source_name": "headphones",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "680921883dfec12ad545bd2d85bb6645090b5c48ae7a15ca04a52a8ae602ff43"
+    },
+    {
+      "id": "heimdall",
+      "source_name": "heimdall",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "3027e4394efd3f875d94d42a362d0f38276e120b06ce3cb33a45d36cccc63490"
+    },
+    {
+      "id": "homer",
+      "source_name": "homer",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "bf1dbf9c1ac16c7e0b80263ee60fbba30a80c3fdf4ef51866a076fc667fef40f"
+    },
+    {
+      "id": "huginn",
+      "source_name": "huginn",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "c7ed20fe74fd04b7a7f74be50471049f8d4ef8f7250e97735830b510d2759f3c"
+    },
+    {
+      "id": "invoice-ninja",
+      "source_name": "invoice_ninja",
+      "type": 3,
+      "kind": "stack",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/Stack/invoice-ninja.yml",
+      "content_hash": "60f07bf3b07ebfbed8947965739c6d72eec9e717bebe3c85f64673828757aa94"
+    },
+    {
+      "id": "jackett",
+      "source_name": "jackett",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "4cf653aaff2bbc5ee64befce483cffbc3bd89abb8b1631cccdd521c5cc62dfd9"
+    },
+    {
+      "id": "jellyfin",
+      "source_name": "jellyfin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "23d3c21c820ecb8d0c227fa434dfa300149db9dba9f8fe82db59c1ac12be6b4a"
+    },
+    {
+      "id": "kodi-headless",
+      "source_name": "kodi-headless",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "8dfec82baa0726b6de01ae24de46f88f5b30987787c700b2bf7c4476867df12a"
+    },
+    {
+      "id": "lazylibrarian",
+      "source_name": "lazylibrarian",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "f1769e1894a4a574104de3865e06b3350ff639a7c19aa28cefe21c45d345d287"
+    },
+    {
+      "id": "letsencrypt",
+      "source_name": "letsencrypt",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "d5f20fbdb76e589638c3e27445627928ca4907eb163db75f6987298a9d6032e6"
+    },
+    {
+      "id": "librespeed",
+      "source_name": "librespeed",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "65e3418139a966dad8e4ef7b93ccb751da75e5203dcd87bfd4600431b91e706c"
+    },
+    {
+      "id": "lychee",
+      "source_name": "lychee",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "7cdb25b1587d70eb546014c5e70418805405f4ce5c391de39c2ca500a38c9e4c"
+    },
+    {
+      "id": "mariadb",
+      "source_name": "mariadb",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "e96a330b585d8d07a5fcfed888be541c045a412dbfa22079639fc5de1ace921d"
+    },
+    {
+      "id": "mcmyadmin2",
+      "source_name": "mcmyadmin2",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "1a5562383358d1af2ecad3091080951bf4b64e8b2838fb9c96da18ed69afe657"
+    },
+    {
+      "id": "medusa",
+      "source_name": "medusa",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "9121eacecb61d762210617452ac677d7f6da5a487189beeb36276200a578a88c"
+    },
+    {
+      "id": "minetest",
+      "source_name": "minetest",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "15f05e324af0b3725d4b5198c3923127bb2924fdd7d71d39c7a3c6d14ccf10a4"
+    },
+    {
+      "id": "minisatip",
+      "source_name": "minisatip",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a447113029ad0f16ce10821134e644c624f1f7ac5170313c836d47d45517f45c"
+    },
+    {
+      "id": "mstream",
+      "source_name": "mstream",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "b24a718ecdc39b2a6cb0dfe6b5d94f3ce425535c96500030ffa51f7c9a187da4"
+    },
+    {
+      "id": "murmur",
+      "source_name": "murmur",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "bca463b613f6d9e1caf05d6e54f1e8b40f8ea40836f07f778afb54c5fc6797c8"
+    },
+    {
+      "id": "musicbrainz",
+      "source_name": "musicbrainz",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "e9e9c61a79dc21d39d3ea86d4341c8da936f820e816e06ec34a13ef8727afcb3"
+    },
+    {
+      "id": "muximux",
+      "source_name": "muximux",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "27375969df25f8d41e49819148becc51c2594b4cbe3b31ce5c8785101cf74265"
+    },
+    {
+      "id": "mylar",
+      "source_name": "mylar",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "11f46ba6213ff7b7b688ca6a9258a86affe914f1314a0fd7b3f0e13512086fd1"
+    },
+    {
+      "id": "nextcloud",
+      "source_name": "nextcloud",
+      "type": 3,
+      "kind": "stack",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/Stack/nextcloud.yml",
+      "content_hash": "a609285d2c8d561933c8998de9c075faaef09215facc7b6207157cce6d59de00"
+    },
+    {
+      "id": "nginx",
+      "source_name": "nginx",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "2a5dbdbaab423711d0b8fa9d3b6369299cee813dc54e134b1c8ce2dfd7dbec44"
+    },
+    {
+      "id": "nginx-proxy-manager",
+      "source_name": "nginx-proxy-manager",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "e19de099c057dc2742faf57d4b717694cf71b773ebd98e853fb649fab732b036"
+    },
+    {
+      "id": "nzbget",
+      "source_name": "nzbget",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "41d42316e24531b2eaecc05228867c022c46e311ba20dddb5863347c2078f71f"
+    },
+    {
+      "id": "nzbhydra2",
+      "source_name": "nzbhydra2",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "4ccde048b6ea7d960905c42250fbad8f7c1fd99447bdc7098ce681c4643cd989"
+    },
+    {
+      "id": "ombi",
+      "source_name": "ombi",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "237ab59cba3c61a5b49aab9e2ac0c8edab239b0a3e52a120385823ec85a568d5"
+    },
+    {
+      "id": "openvpn-as",
+      "source_name": "openvpn-as",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "b83066a2f6bf9710c139e2911a7d31a5947c97ad032eea116b2a1b1cf8273821"
+    },
+    {
+      "id": "organizr-v2",
+      "source_name": "organizr-v2",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "db8d4ae44a313bcb4d78f023d35b6d3ceeafbf4202a6df461f3ed9e39204d093"
+    },
+    {
+      "id": "oscam",
+      "source_name": "oscam",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a2a74bd20dd5991dc4f091508de611a8db24484d514de8fe549076ea61800049"
+    },
+    {
+      "id": "photoshow",
+      "source_name": "photoshow",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "566716680e44aad0c8da6c88be17ea54fa3d78513b801975ee09941926909907"
+    },
+    {
+      "id": "snibox",
+      "source_name": "snibox",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "f6e1ed085b92c54e1886f8381cc4d350d5b4394e3a99313432c5e0ff94c3f517"
+    },
+    {
+      "id": "bookstack",
+      "source_name": "Bookstack",
+      "type": 3,
+      "kind": "stack",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/Stack/bookstack.yml",
+      "content_hash": "b046c2d579bdbc5d69ee8db65bd5ec89ca854496e30892bff75d2d366d615e6b"
+    },
+    {
+      "id": "chevereto",
+      "source_name": "Chevereto",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "02bb59273869282acd8ba639d871e44c0e2ff2e7b197792651a6e909da8d7bed"
+    },
+    {
+      "id": "chowdown",
+      "source_name": "Chowdown",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "7c851e0aa3e186d8e979401bfb56fee33495a7984fd0337a57f0537b363ccc93"
+    },
+    {
+      "id": "calibre-web",
+      "source_name": "calibre-web",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "84b038a3539bd76e9646551de7d2a5bfd5d234641e169b64468a3706934b46f4"
+    },
+    {
+      "id": "cardigann",
+      "source_name": "cardigann",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "71509ba0527fa30cff62973d83d023792fdb7ad8d52f55a57edd27e44a1bdc31"
+    },
+    {
+      "id": "code-server",
+      "source_name": "code-server",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "d5a546db5d89e56dc5cf5215deb5e2a4f0970c5b746ab35d05daa8bb12ff008f"
+    },
+    {
+      "id": "codiad",
+      "source_name": "codiad",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "dbaee2ef510c7e68fc54d840332d67fff34e34b5eec138ff443b786d3925c9a9"
+    },
+    {
+      "id": "cops",
+      "source_name": "cops",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "13e3a7371323a4358d7bd85617b7bfccc601e87fb2ec908f0db3a5107d52eac6"
+    },
+    {
+      "id": "couchpotato",
+      "source_name": "couchpotato",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "bf16f093fc20bc468faded1cbe5620f783a5479afefab82884134fdd22e6eb8a"
+    },
+    {
+      "id": "daapd",
+      "source_name": "daapd",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "5a2a2b8c17f4315652183003631174751f3e4b93f69c58395edd98306c93bd8e"
+    },
+    {
+      "id": "dashmachine",
+      "source_name": "dashmachine",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "6471430e194e5efc129cf01657894aeef60982820fc4305faaf7950281dc1ece"
+    },
+    {
+      "id": "davos",
+      "source_name": "davos",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "3645c5e89b3848d40aa708bf29147713f7f9d424ca9280065f7ca576974f38e6"
+    },
+    {
+      "id": "deemix",
+      "source_name": "deemix",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "2491be80af9ff5e721151284fb991794ce2592d0428a38bc618a052fb8aa0d16"
+    },
+    {
+      "id": "deluge",
+      "source_name": "Deluge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "2eb8c893a0644c7858b6f52cbece703a159a5175c90ca8e108c83d5e28a42e69"
+    },
+    {
+      "id": "domoticz",
+      "source_name": "domoticz",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "6127558c37e503db602f879b9504fc7b968d6ca60655236b7d57ba1b55360db1"
+    },
+    {
+      "id": "duckdns",
+      "source_name": "duckdns",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "95eff20a1000358713577d97202be2fe659d53044b4294b2bff779023b9961ef"
+    },
+    {
+      "id": "duplicati",
+      "source_name": "duplicati",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "3e811213b3039537740e1c89b67e5733803054ea54d0bc56c02917f74c11ca7e"
+    },
+    {
+      "id": "emby",
+      "source_name": "emby",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "f956ba96895824b54e0d02ec57aa848a2da11765117de9204d57b02052309f4d"
+    },
+    {
+      "id": "filebrowser",
+      "source_name": "filebrowser",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "f9b1cc1890405d0b9e41bacfd3772564210913e8a887cbe1cf1feef77a4b941a"
+    },
+    {
+      "id": "freshrss",
+      "source_name": "freshrss",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "5a42be575aeda2489c0edb5ff5e44d718fb34237c2349402c4205c46d14ea0fd"
+    },
+    {
+      "id": "gazee",
+      "source_name": "gazee",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "93b1265677b4739fef3e7e54d12b887351ec48766b858abf213e3742041ccd6b"
+    },
+    {
+      "id": "grocy",
+      "source_name": "grocy",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "323a5893bebbed77b95c3e66ed26ffbb6c13695b8e1970051d01e728c76e58bd"
+    },
+    {
+      "id": "guacamole",
+      "source_name": "guacamole",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "8dc846e7fcba8cb31d4a4172e76fb6b60c9bcee10f6d13685d1d20e5b3eae980"
+    },
+    {
+      "id": "htpcmanager",
+      "source_name": "htpcmanager",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a2426cf4803a2388f518686b8f168b2a961625c153345a51f2d67198abf14c30"
+    },
+    {
+      "id": "lidarr",
+      "source_name": "lidarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "3d1a924a52645ddd674ee0a6180913c6fbf6833260dc090c779fb29afa02b707"
+    },
+    {
+      "id": "pihole",
+      "source_name": "pihole",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "e47774d953b646fd48a450ae09d16f7e382578d3eeac8e3791289d54fa6ec7f3"
+    },
+    {
+      "id": "piwigo",
+      "source_name": "piwigo",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "de115f3bd4f29f99cf3706658ffc588658649a25de55f0ad10467671b9f55767"
+    },
+    {
+      "id": "plex",
+      "source_name": "plex",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "13c7750c74a9916bf0dd89ad7dfb4f377bd23b9073c968a11ca4220578933d96"
+    },
+    {
+      "id": "plexrequests",
+      "source_name": "plexrequests",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "762fab2004c88ee62749405c444a82346e5607a7ec808aaf27f38ed897717964"
+    },
+    {
+      "id": "projectsend",
+      "source_name": "projectsend",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "d5934dd3c837754241a686f9e6c4c06997fde100351c6e28e793d68b146c4902"
+    },
+    {
+      "id": "protonmail-bridge",
+      "source_name": "protonmail-bridge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "56f68cd0cbfdaefaf1add54332dec12f650858b2330ee2052d8e2a7d7b74b4d8"
+    },
+    {
+      "id": "pydio",
+      "source_name": "pydio",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "9054f890dd7adcc66447174fb003d595504b13347ed463dc34732e8079fa6a0c"
+    },
+    {
+      "id": "qbittorrent",
+      "source_name": "qbittorrent",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "09fb1efa1b17c19fd2c3df0bc80b2da767295e151684af645737c0440ebfe1a5"
+    },
+    {
+      "id": "quassel-core",
+      "source_name": "quassel-core",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "1bb28fbfbf887d1a7dad806395ce8871e84fb3c62b458e4077d1b36b85cc5794"
+    },
+    {
+      "id": "radarr",
+      "source_name": "radarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "5213025599ab2182ead0bd523fd3145f40fc1b9d2f0f7254460070bddc425691"
+    },
+    {
+      "id": "reactive-resume",
+      "source_name": "reactive-resume",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "81b51ee988cd3aa07a854afa17645fd1b06653daba0dbb14cc23b152a51850a7"
+    },
+    {
+      "id": "resilio-sync",
+      "source_name": "resilio-sync",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "296eb7f1fb849f92e36470f8619ba832b6db39b38f3e1cb510f218a23d4c47a5"
+    },
+    {
+      "id": "rutorrent",
+      "source_name": "rutorrent",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "cb7326073e411ee91cec775c11717b39a74162282c466ee9cb77e4d8dc0e8bcf"
+    },
+    {
+      "id": "sabnzbd",
+      "source_name": "sabnzbd",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "f83e9980450d1b09d5053286d93ee89ed2861cea05a92d60b0a9350e7f5feaf5"
+    },
+    {
+      "id": "shiori",
+      "source_name": "shiori",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "b93d4c6f54e0e67944135e84bf2770d3a5d1b9d9660ea93d4736f5aa91a96069"
+    },
+    {
+      "id": "sickchill",
+      "source_name": "sickchill",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "7958e007c9f66a94ec7d5fc92906d66ff14581627370a4caeee2fcdf89a5519f"
+    },
+    {
+      "id": "sickgear",
+      "source_name": "sickgear",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "4941e6aaef45bea38ba83ccf6e62039f40ee2f95565bc7d5cbe2973d1926891d"
+    },
+    {
+      "id": "smokeping",
+      "source_name": "smokeping",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "4fcf49320a380aa45720d418c63a9f83a4761449b8b1abf1a4d6060f24ece92f"
+    },
+    {
+      "id": "sonarr",
+      "source_name": "sonarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "5895fd55768ccf75bc2261b7a35232b57969dbfc8d2c7e753d845cb2d35dccff"
+    },
+    {
+      "id": "syncthing",
+      "source_name": "syncthing",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "2580be7275be80b81b7ed7b8d3e370067e37dc240d4f056a47dcb2e55569d71d"
+    },
+    {
+      "id": "tautulli",
+      "source_name": "tautulli",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "d74c9b624847b8611d7fd764ffd3ede8d4e4e6eddc80a0801cfa1e5d7a5ec88b"
+    },
+    {
+      "id": "thelounge",
+      "source_name": "thelounge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "9f539adb1e70055d236c7dbda353338a1a1a595d7f98c86659f1b5407abcccb3"
+    },
+    {
+      "id": "tiddlywiki",
+      "source_name": "tiddlywiki",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "821968972566d401cb698d4b67fc0f5e1f339d7178fb961fef8c0b4aa694a1c3"
+    },
+    {
+      "id": "transmission",
+      "source_name": "transmission",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "5fc8a08722aa42a9c11784116b4af51d580c1b7648b4290e9b5785df05a6fbe7"
+    },
+    {
+      "id": "transmission-openvpn",
+      "source_name": "transmission-openvpn",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a9d024e9d1f843f7d970a01111211571de49d8e7bbdfd304a443b5c48c7477d9"
+    },
+    {
+      "id": "tt-rss",
+      "source_name": "tt-rss",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "9d598e49ee7739aeb8ba523e1b11d29caa5b4b648d4c6eea66f86b5094063705"
+    },
+    {
+      "id": "tvheadend",
+      "source_name": "tvheadend",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "07d900c583e4026a70c4d846cefb18a492bc891dde161d146152693e06750de0"
+    },
+    {
+      "id": "vaultwarden",
+      "source_name": "vaultwarden",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "9dbfa96381cc9a4ff0944622af3a62d82a85435bee24d3ee5586e84e806ae554"
+    },
+    {
+      "id": "ubooquity",
+      "source_name": "ubooquity",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a1543b3e6cf38072dd6fcd45c96ea258ab5e22b94aa79ae16934b882fc50e3a8"
+    },
+    {
+      "id": "unifi-controller",
+      "source_name": "unifi-controller",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "4b964c9d215d7af8202a018337877e4a55bbeb08b9ade0c56eacbd5a21fe48ab"
+    },
+    {
+      "id": "watchtower",
+      "source_name": "watchtower",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "8a6e57bc6243ca5ad20eb85263932e000a778ec21e1189313ab1b5072f7f3ac3"
+    },
+    {
+      "id": "webgrabplus",
+      "source_name": "webgrabplus",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "5ff81ecce2cc3f5f99df84af60fa13f04ac99d9d74e779607d058d1cfdbf96f3"
+    },
+    {
+      "id": "whoogle",
+      "source_name": "whoogle",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a5c73515d5d53b5d5f97d795a84890d75822b5760881739f6e6b428b2a4acc66"
+    },
+    {
+      "id": "wikijs",
+      "source_name": "wikijs",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "b435727d28e07da253ff457c4995aefa09ab2041066ec09d7428b08108fde58f"
+    },
+    {
+      "id": "youtubedl-material",
+      "source_name": "youtubedl-material",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "eea387cb51d17381cc811790007d203d60233b8287d64916b0cb0c09056add4a"
+    },
+    {
+      "id": "unifi-video",
+      "source_name": "UniFi Video",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "bf0e763aa4e41391490b4dd3a708f64ace0c9dc6f616578b7b834c9d80f1553b"
+    },
+    {
+      "id": "yacht",
+      "source_name": "yacht",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "a00c3469034be0c255ed03247c9d69fc3f6c0688736f313ab9e8564a7e1d37b2"
+    },
+    {
+      "id": "znc",
+      "source_name": "znc",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "c7fafb99b37e6c6844874a3f73542159949f48d5d3058a543d0eb3ba581bfd22"
+    },
+    {
+      "id": "deluge-openvpn",
+      "source_name": "deluge-openvpn",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "172e2264ed0b2ed9587a772e3290b5bfc537e54c56aa93c85e5a6b4bcc2bc473"
+    },
+    {
+      "id": "dradis",
+      "source_name": "dradis",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "d7f48278de4df64a1a96ad5de939a7db70096468c96aff56bab8de34279a5666"
+    },
+    {
+      "id": "peppermint",
+      "source_name": "Peppermint",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json",
+      "content_hash": "f7e2a81a017c44dd3c481fcffeede69a7c45df48b1546859cc2c8100e64a063e"
+    }
+  ],
+  "failed": [
+    {
+      "source_name": "pritunl",
+      "type": 3,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "converted_count": 105,
+  "failed_count": 1,
+  "structural_validation_errors": []
+}

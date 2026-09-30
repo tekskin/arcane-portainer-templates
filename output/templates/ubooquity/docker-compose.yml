@@ -1,0 +1,16 @@
+services:
+  ubooquity:
+    image: linuxserver/ubooquity:latest
+    environment:
+      MAXMEM: '${MAXMEM:-512}'
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '2202:2202/tcp'
+      - '2203:2203/tcp'
+    volumes:
+      - '/books'
+      - '/comics'
+      - '/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

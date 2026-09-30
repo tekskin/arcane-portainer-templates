@@ -1,0 +1,18 @@
+services:
+  airsonic:
+    image: lscr.io/linuxserver/airsonic:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      CONTEXT_PATH: '${CONTEXT_PATH:-airsonic}'
+      JAVA_OPTS: '${JAVA_OPTS:--Xms256m -Xmx512m}'
+    ports:
+      - '4040:4040/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Music:/music'
+      - '${PORTAINER_ROOT}/Files/AppData/Airsonic/Playlists:/playlists'
+      - '${PORTAINER_ROOT}/Podcasts:/podcasts'
+      - '${PORTAINER_ROOT}/Files/AppData/Airsonic/Media:/media'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Airsonic/:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,15 @@
+services:
+  bazarr:
+    image: lscr.io/linuxserver/bazarr:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      TZ: '${TZ:-}'
+    ports:
+      - '6767:6767/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Bazarr:/config'
+      - '${PORTAINER_ROOT}/TV:/tv'
+      - '${PORTAINER_ROOT}/Movies:/movies'
+    restart: 'unless-stopped'
+    platform: 'linux'

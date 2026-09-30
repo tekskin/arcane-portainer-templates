@@ -1,0 +1,13 @@
+services:
+  grocy:
+    image: linuxserver/grocy:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      TZ: '${TZ:-}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Grocy:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,14 @@
+services:
+  musicbrainz:
+    image: linuxserver/musicbrainz:latest
+    environment:
+      BRAINZCODE: '${BRAINZCODE:-}'
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '5000:5000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/MusicBrainz:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/MusicBrainz:/data'
+    restart: 'unless-stopped'
+    platform: 'linux'

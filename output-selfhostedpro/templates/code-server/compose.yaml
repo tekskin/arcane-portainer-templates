@@ -1,0 +1,16 @@
+services:
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      GUID: '${GUID:-1000}'
+      TZ: '${TZ:-}'
+      PASSWORD: '${PASSWORD:-}'
+      SUDO_PASSWORD: '${SUDO_PASSWORD:-}'
+      PROXY_DOMAIN: '${PROXY_DOMAIN:-example.my.domain}'
+    ports:
+      - '8443:8443/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Code-Server:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

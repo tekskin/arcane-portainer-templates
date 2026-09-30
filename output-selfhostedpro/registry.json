@@ -1,0 +1,1598 @@
+{
+  "$schema": "https://registry.getarcane.app/schema.json",
+  "name": "Portainer Community Templates - Arcane Conversion",
+  "description": "Converted Docker Compose templates generated from Qballjos/portainer_templates.",
+  "version": "1.0.0",
+  "author": "Qballjos/portainer_templates conversion",
+  "url": "https://example.com/arcane-portainer-templates/selfhostedpro",
+  "templates": [
+    {
+      "id": "airsonic",
+      "name": "Airsonic",
+      "description": "Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/airsonic/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/airsonic/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/airsonic/README.md",
+      "content_hash": "b2552f13e358f741f2218b0ce16903cfba9255bbd967b9fc5e1b3a934b0596c4",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "authelia",
+      "name": "Authelia",
+      "description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/authelia/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/authelia/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/authelia/README.md",
+      "content_hash": "d3c6c9dcf45e410f29258eea99faa5d3b745a80817609ada3f68210f24429432",
+      "tags": [
+        "other",
+        "tools",
+        "authentication"
+      ]
+    },
+    {
+      "id": "bazarr",
+      "name": "Bazarr",
+      "description": "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/bazarr/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/bazarr/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/bazarr/README.md",
+      "content_hash": "03fe0e53efb41db4778a7bd558c9c3fef206a67c405038a2fd065d140ccd07f6",
+      "tags": [
+        "video",
+        "music"
+      ]
+    },
+    {
+      "id": "beets",
+      "name": "Beets",
+      "description": "The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/beets/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/beets/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/beets/README.md",
+      "content_hash": "18c7eeac82a1056a671e478c3c3c1d42f8a4677ed964de3691acb41ef37fa2a4",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "booksonic",
+      "name": "Booksonic",
+      "description": "Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/booksonic/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/booksonic/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/booksonic/README.md",
+      "content_hash": "9d5980a0f0d05e9ede716c6df397ae304bbbc31dce17381ee2a91388f0267ac0",
+      "tags": [
+        "books",
+        "other"
+      ]
+    },
+    {
+      "id": "embystat",
+      "name": "EmbyStat",
+      "description": "Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/embystat/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/embystat/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/embystat/README.md",
+      "content_hash": "0084ffb3bf58425e5b93ec3c1d355d2ca526a3b23a3d96dca8c0973d733f1893",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "description": "Portainer template: Headphones",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/headphones/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/headphones/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/headphones/README.md",
+      "content_hash": "680921883dfec12ad545bd2d85bb6645090b5c48ae7a15ca04a52a8ae602ff43",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "heimdall",
+      "name": "Heimdall",
+      "description": "Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/heimdall/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/heimdall/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/heimdall/README.md",
+      "content_hash": "3027e4394efd3f875d94d42a362d0f38276e120b06ce3cb33a45d36cccc63490",
+      "tags": [
+        "tools",
+        "web",
+        "other"
+      ]
+    },
+    {
+      "id": "homer",
+      "name": "Homer",
+      "description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/homer/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/homer/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/homer/README.md",
+      "content_hash": "bf1dbf9c1ac16c7e0b80263ee60fbba30a80c3fdf4ef51866a076fc667fef40f",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "huginn",
+      "name": "Huginn",
+      "description": "Create agents that monitor and act on your behalf.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/huginn/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/huginn/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/huginn/README.md",
+      "content_hash": "c7ed20fe74fd04b7a7f74be50471049f8d4ef8f7250e97735830b510d2759f3c",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "invoice-ninja",
+      "name": "Invoice Ninja",
+      "description": "Invoices, Expenses and Tasks built with Laravel and Flutter.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/invoice-ninja/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/invoice-ninja/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/invoice-ninja/README.md",
+      "content_hash": "60f07bf3b07ebfbed8947965739c6d72eec9e717bebe3c85f64673828757aa94",
+      "tags": [
+        "cloud",
+        "productivity",
+        "tools",
+        "other",
+        "web"
+      ]
+    },
+    {
+      "id": "jackett",
+      "name": "Jackett",
+      "description": "Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/jackett/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/jackett/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/jackett/README.md",
+      "content_hash": "4cf653aaff2bbc5ee64befce483cffbc3bd89abb8b1631cccdd521c5cc62dfd9",
+      "tags": [
+        "downloaders",
+        "tools"
+      ]
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/jellyfin/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/jellyfin/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/jellyfin/README.md",
+      "content_hash": "23d3c21c820ecb8d0c227fa434dfa300149db9dba9f8fe82db59c1ac12be6b4a",
+      "tags": [
+        "video",
+        "music",
+        "photos"
+      ]
+    },
+    {
+      "id": "kodi-headless",
+      "name": "Kodi Headless",
+      "description": "Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/kodi-headless/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/kodi-headless/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/kodi-headless/README.md",
+      "content_hash": "8dfec82baa0726b6de01ae24de46f88f5b30987787c700b2bf7c4476867df12a",
+      "tags": [
+        "video"
+      ]
+    },
+    {
+      "id": "lazylibrarian",
+      "name": "LazyLibrarian",
+      "description": "LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lazylibrarian/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lazylibrarian/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lazylibrarian/README.md",
+      "content_hash": "f1769e1894a4a574104de3865e06b3350ff639a7c19aa28cefe21c45d345d287",
+      "tags": [
+        "books"
+      ]
+    },
+    {
+      "id": "letsencrypt",
+      "name": "Let's Encrypt",
+      "description": "This container sets up an Nginx webserver and reverse proxy with php support and a built-in letsencrypt client that automates free SSL server certificate generation and renewal processes. It also contains fail2ban for intrusion prevention.\r\n  \r\n  Before running this container, make sure that the url and subdomains are properly forwarded to this container's host.\r\n  \r\n  - Port 443 on the internet side of the router should be forwarded to this container's port 443.\r\n  - If you need a dynamic dns provider, you can use the free provider duckdns.org where the url will be yoursubdomain.duckdns.org and the subdomains    can be www,ftp,cloud\r\n  - The container detects changes to url and subdomains, revokes existing certs and generates new ones during start. \r\n  - It also detects changes to the DHLEVEL parameter and replaces the dhparams file.\r\n  \r\n  - If you'd like to password protect your sites, you can use htpasswd. Run the following command on your host to generate the htpasswd file docker exec -it letsencrypt htpasswd -c /config/nginx/.htpasswd &lt;username&gt;",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/letsencrypt/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/letsencrypt/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/letsencrypt/README.md",
+      "content_hash": "d5f20fbdb76e589638c3e27445627928ca4907eb163db75f6987298a9d6032e6",
+      "tags": [
+        "tools",
+        "web"
+      ]
+    },
+    {
+      "id": "librespeed",
+      "name": "LibreSpeed",
+      "description": "A Free and Open Source Speedtest for HTML5 and more.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/librespeed/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/librespeed/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/librespeed/README.md",
+      "content_hash": "65e3418139a966dad8e4ef7b93ccb751da75e5203dcd87bfd4600431b91e706c",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "lychee",
+      "name": "Lychee",
+      "description": "Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lychee/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lychee/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lychee/README.md",
+      "content_hash": "7cdb25b1587d70eb546014c5e70418805405f4ce5c391de39c2ca500a38c9e4c",
+      "tags": [
+        "cloud",
+        "web",
+        "management",
+        "photos"
+      ]
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "description": "An Enhanced drop in replacement for Mysql",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mariadb/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mariadb/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mariadb/README.md",
+      "content_hash": "e96a330b585d8d07a5fcfed888be541c045a412dbfa22079639fc5de1ace921d",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "mcmyadmin2",
+      "name": "McMyAdmin 2",
+      "description": "McMyAdmin 2 is the leading web control panel and administration console for Minecraft servers.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mcmyadmin2/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mcmyadmin2/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mcmyadmin2/README.md",
+      "content_hash": "1a5562383358d1af2ecad3091080951bf4b64e8b2838fb9c96da18ed69afe657",
+      "tags": [
+        "other"
+      ]
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "description": "Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/medusa/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/medusa/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/medusa/README.md",
+      "content_hash": "9121eacecb61d762210617452ac677d7f6da5a487189beeb36276200a578a88c",
+      "tags": [
+        "downloaders",
+        "video"
+      ]
+    },
+    {
+      "id": "minetest",
+      "name": "Minetest",
+      "description": "Server version of minetest, a free, open source alternative to minecraft.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/minetest/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/minetest/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/minetest/README.md",
+      "content_hash": "15f05e324af0b3725d4b5198c3923127bb2924fdd7d71d39c7a3c6d14ccf10a4",
+      "tags": [
+        "other"
+      ]
+    },
+    {
+      "id": "minisatip",
+      "name": "Minisatip",
+      "description": "Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.\n\n  The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/minisatip/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/minisatip/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/minisatip/README.md",
+      "content_hash": "a447113029ad0f16ce10821134e644c624f1f7ac5170313c836d47d45517f45c",
+      "tags": [
+        "video",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "mstream",
+      "name": "Mstream",
+      "description": "Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone..",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mstream/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mstream/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mstream/README.md",
+      "content_hash": "b24a718ecdc39b2a6cb0dfe6b5d94f3ce425535c96500030ffa51f7c9a187da4",
+      "tags": [
+        "other",
+        "music"
+      ]
+    },
+    {
+      "id": "murmur",
+      "name": "Murmur",
+      "description": "Mumble is a voicechat program for gamers written on top of Qt and Opus. Murmur is the server backend for Mumble.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/murmur/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/murmur/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/murmur/README.md",
+      "content_hash": "bca463b613f6d9e1caf05d6e54f1e8b40f8ea40836f07f778afb54c5fc6797c8",
+      "tags": [
+        "other",
+        "voice",
+        "chat"
+      ]
+    },
+    {
+      "id": "musicbrainz",
+      "name": "MusicBrainz",
+      "description": "MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/musicbrainz/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/musicbrainz/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/musicbrainz/README.md",
+      "content_hash": "e9e9c61a79dc21d39d3ea86d4341c8da936f820e816e06ec34a13ef8727afcb3",
+      "tags": [
+        "music",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "muximux",
+      "name": "Muximux",
+      "description": "A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/muximux/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/muximux/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/muximux/README.md",
+      "content_hash": "27375969df25f8d41e49819148becc51c2594b4cbe3b31ce5c8785101cf74265",
+      "tags": [
+        "web",
+        "proxy",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "mylar",
+      "name": "Mylar",
+      "description": "An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mylar/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mylar/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/mylar/README.md",
+      "content_hash": "11f46ba6213ff7b7b688ca6a9258a86affe914f1314a0fd7b3f0e13512086fd1",
+      "tags": [
+        "downloaders",
+        "books"
+      ]
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "description": "Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nextcloud/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nextcloud/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nextcloud/README.md",
+      "content_hash": "a609285d2c8d561933c8998de9c075faaef09215facc7b6207157cce6d59de00",
+      "tags": [
+        "cloud",
+        "productivity",
+        "tools",
+        "other",
+        "web"
+      ]
+    },
+    {
+      "id": "nginx",
+      "name": "Nginx",
+      "description": "Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nginx/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nginx/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nginx/README.md",
+      "content_hash": "2a5dbdbaab423711d0b8fa9d3b6369299cee813dc54e134b1c8ce2dfd7dbec44",
+      "tags": [
+        "web",
+        "proxy"
+      ]
+    },
+    {
+      "id": "nginx-proxy-manager",
+      "name": "Nginx Proxy Manager",
+      "description": "Nginx Proxy Manager enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nginx-proxy-manager/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nginx-proxy-manager/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nginx-proxy-manager/README.md",
+      "content_hash": "e19de099c057dc2742faf57d4b717694cf71b773ebd98e853fb649fab732b036",
+      "tags": [
+        "proxy",
+        "tools"
+      ]
+    },
+    {
+      "id": "nzbget",
+      "name": "NZBGet",
+      "description": "NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nzbget/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nzbget/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nzbget/README.md",
+      "content_hash": "41d42316e24531b2eaecc05228867c022c46e311ba20dddb5863347c2078f71f",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "nzbhydra2",
+      "name": "NZBHydra 2",
+      "description": "NZBHydra is a meta search for NZB indexers and the \"spiritual successor\" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nzbhydra2/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nzbhydra2/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/nzbhydra2/README.md",
+      "content_hash": "4ccde048b6ea7d960905c42250fbad8f7c1fd99447bdc7098ce681c4643cd989",
+      "tags": [
+        "downloaders",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "ombi",
+      "name": "Ombi",
+      "description": "Ombi allows you to host your own Plex Request and user management system.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/ombi/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/ombi/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/ombi/README.md",
+      "content_hash": "237ab59cba3c61a5b49aab9e2ac0c8edab239b0a3e52a120385823ec85a568d5",
+      "tags": [
+        "downloaders",
+        "other",
+        "video",
+        "tools"
+      ]
+    },
+    {
+      "id": "openvpn-as",
+      "name": "OpenVPN Access Server",
+      "description": "OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/openvpn-as/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/openvpn-as/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/openvpn-as/README.md",
+      "content_hash": "b83066a2f6bf9710c139e2911a7d31a5947c97ad032eea116b2a1b1cf8273821",
+      "tags": [
+        "other"
+      ]
+    },
+    {
+      "id": "organizr-v2",
+      "name": "Organizr v2",
+      "description": "Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/organizr-v2/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/organizr-v2/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/organizr-v2/README.md",
+      "content_hash": "db8d4ae44a313bcb4d78f023d35b6d3ceeafbf4202a6df461f3ed9e39204d093",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "oscam",
+      "name": "OScam",
+      "description": "OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module\n  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the\n  not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/oscam/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/oscam/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/oscam/README.md",
+      "content_hash": "a2a74bd20dd5991dc4f091508de611a8db24484d514de8fe549076ea61800049",
+      "tags": [
+        "other"
+      ]
+    },
+    {
+      "id": "photoshow",
+      "name": "PhotoShow",
+      "description": "A simple, easy way to turn a photo album into a webgallery",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/photoshow/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/photoshow/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/photoshow/README.md",
+      "content_hash": "566716680e44aad0c8da6c88be17ea54fa3d78513b801975ee09941926909907",
+      "tags": [
+        "photos"
+      ]
+    },
+    {
+      "id": "snibox",
+      "name": "Snibox",
+      "description": "Self-hosted snippet manager.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/snibox/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/snibox/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/snibox/README.md",
+      "content_hash": "f6e1ed085b92c54e1886f8381cc4d350d5b4394e3a99313432c5e0ff94c3f517",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "bookstack",
+      "name": "Bookstack",
+      "description": "Bookstack is a free and open source Wiki designed for creating beautiful documentation. Feautring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/bookstack/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/bookstack/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/bookstack/README.md",
+      "content_hash": "b046c2d579bdbc5d69ee8db65bd5ec89ca854496e30892bff75d2d366d615e6b",
+      "tags": [
+        "wiki"
+      ]
+    },
+    {
+      "id": "chevereto",
+      "name": "Chevereto",
+      "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version..",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/chevereto/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/chevereto/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/chevereto/README.md",
+      "content_hash": "02bb59273869282acd8ba639d871e44c0e2ff2e7b197792651a6e909da8d7bed",
+      "tags": [
+        "other",
+        "tools",
+        "photo"
+      ]
+    },
+    {
+      "id": "chowdown",
+      "name": "Chowdown",
+      "description": "Save recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/chowdown/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/chowdown/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/chowdown/README.md",
+      "content_hash": "7c851e0aa3e186d8e979401bfb56fee33495a7984fd0337a57f0537b363ccc93",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "calibre-web",
+      "name": "Calibre Web",
+      "description": "Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.\n\n  [br][br]\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\n  [b]/config[/b] Where Calibre-web should store it's database[br]\n  [b]/books[/b] Path to your calibre library metadata.db file[br]",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/calibre-web/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/calibre-web/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/calibre-web/README.md",
+      "content_hash": "84b038a3539bd76e9646551de7d2a5bfd5d234641e169b64468a3706934b46f4",
+      "tags": [
+        "cloud",
+        "books"
+      ]
+    },
+    {
+      "id": "cardigann",
+      "name": "Cardigann",
+      "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/cardigann/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/cardigann/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/cardigann/README.md",
+      "content_hash": "71509ba0527fa30cff62973d83d023792fdb7ad8d52f55a57edd27e44a1bdc31",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "code-server",
+      "name": "Code Server",
+      "description": "Code-server is VS Code running on a remote server, accessible through the browser.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/code-server/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/code-server/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/code-server/README.md",
+      "content_hash": "d5a546db5d89e56dc5cf5215deb5e2a4f0970c5b746ab35d05daa8bb12ff008f",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "codiad",
+      "name": "Codiad",
+      "description": "Codiad is a web-based IDE framework with a small footprint and minimal requirements.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/codiad/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/codiad/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/codiad/README.md",
+      "content_hash": "dbaee2ef510c7e68fc54d840332d67fff34e34b5eec138ff443b786d3925c9a9",
+      "tags": [
+        "productivity"
+      ]
+    },
+    {
+      "id": "cops",
+      "name": "COPS",
+      "description": "COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/cops/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/cops/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/cops/README.md",
+      "content_hash": "13e3a7371323a4358d7bd85617b7bfccc601e87fb2ec908f0db3a5107d52eac6",
+      "tags": [
+        "cloud",
+        "books"
+      ]
+    },
+    {
+      "id": "couchpotato",
+      "name": "CouchPotato",
+      "description": "CouchPotato (CP) is an automatic NZB and torrent downloader. You can keep a \"movies I want\"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the torrent to a specified directory.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/couchpotato/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/couchpotato/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/couchpotato/README.md",
+      "content_hash": "bf16f093fc20bc468faded1cbe5620f783a5479afefab82884134fdd22e6eb8a",
+      "tags": [
+        "downloaders",
+        "video"
+      ]
+    },
+    {
+      "id": "daapd",
+      "name": "Daapd",
+      "description": "DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/daapd/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/daapd/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/daapd/README.md",
+      "content_hash": "5a2a2b8c17f4315652183003631174751f3e4b93f69c58395edd98306c93bd8e",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "dashmachine",
+      "name": "DashMachine",
+      "description": "Another application bookmark dashboard, with fun features.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/dashmachine/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/dashmachine/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/dashmachine/README.md",
+      "content_hash": "6471430e194e5efc129cf01657894aeef60982820fc4305faaf7950281dc1ece",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "davos",
+      "name": "Davos",
+      "description": "davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.\r\n\r\n/config : AppData Location\r\n/download : File Download Location",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/davos/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/davos/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/davos/README.md",
+      "content_hash": "3645c5e89b3848d40aa708bf29147713f7f9d424ca9280065f7ca576974f38e6",
+      "tags": [
+        "ftp",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "deemix",
+      "name": "DeeMix",
+      "description": "Deemix is a deezer downloader built from the ashes of Deezloader Remix.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deemix/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deemix/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deemix/README.md",
+      "content_hash": "2491be80af9ff5e721151284fb991794ce2592d0428a38bc618a052fb8aa0d16",
+      "tags": [
+        "other",
+        "music"
+      ]
+    },
+    {
+      "id": "deluge",
+      "name": "Deluge",
+      "description": "Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deluge/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deluge/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deluge/README.md",
+      "content_hash": "2eb8c893a0644c7858b6f52cbece703a159a5175c90ca8e108c83d5e28a42e69",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "domoticz",
+      "name": "Domoticz",
+      "description": "Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/domoticz/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/domoticz/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/domoticz/README.md",
+      "content_hash": "6127558c37e503db602f879b9504fc7b968d6ca60655236b7d57ba1b55360db1",
+      "tags": [
+        "homeautomation",
+        "management"
+      ]
+    },
+    {
+      "id": "duckdns",
+      "name": "Duck DNS",
+      "description": "Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.\r\n\r\nFirst, go to duckdns site, register your subdomain and retrieve your token\r\nThen run the docker create command above with your subdomain(s) and token\r\nIt will update your IP with the DuckDNS service every 5 minutes",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/duckdns/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/duckdns/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/duckdns/README.md",
+      "content_hash": "95eff20a1000358713577d97202be2fe659d53044b4294b2bff779023b9961ef",
+      "tags": [
+        "dns",
+        "tools"
+      ]
+    },
+    {
+      "id": "duplicati",
+      "name": "Duplicati",
+      "description": "Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/duplicati/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/duplicati/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/duplicati/README.md",
+      "content_hash": "3e811213b3039537740e1c89b67e5733803054ea54d0bc56c02917f74c11ca7e",
+      "tags": [
+        "backup",
+        "cloud",
+        "other",
+        "productivity",
+        "tools"
+      ]
+    },
+    {
+      "id": "emby",
+      "name": "Emby",
+      "description": "Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/emby/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/emby/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/emby/README.md",
+      "content_hash": "f956ba96895824b54e0d02ec57aa848a2da11765117de9204d57b02052309f4d",
+      "tags": [
+        "video",
+        "music",
+        "photos"
+      ]
+    },
+    {
+      "id": "filebrowser",
+      "name": "FileBrowser",
+      "description": "Web File Browser which can be used as a middleware or standalone app.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/filebrowser/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/filebrowser/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/filebrowser/README.md",
+      "content_hash": "f9b1cc1890405d0b9e41bacfd3772564210913e8a887cbe1cf1feef77a4b941a",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "freshrss",
+      "name": "FreshRSS",
+      "description": "A free, self-hostable rss aggregator…",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/freshrss/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/freshrss/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/freshrss/README.md",
+      "content_hash": "5a42be575aeda2489c0edb5ff5e44d718fb34237c2349402c4205c46d14ea0fd",
+      "tags": [
+        "other"
+      ]
+    },
+    {
+      "id": "gazee",
+      "name": "Gazee",
+      "description": "A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/gazee/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/gazee/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/gazee/README.md",
+      "content_hash": "93b1265677b4739fef3e7e54d12b887351ec48766b858abf213e3742041ccd6b",
+      "tags": [
+        "web",
+        "books",
+        "tools"
+      ]
+    },
+    {
+      "id": "grocy",
+      "name": "Grocy",
+      "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/grocy/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/grocy/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/grocy/README.md",
+      "content_hash": "323a5893bebbed77b95c3e66ed26ffbb6c13695b8e1970051d01e728c76e58bd",
+      "tags": [
+        "other",
+        "tools",
+        "finance"
+      ]
+    },
+    {
+      "id": "guacamole",
+      "name": "Guacamole",
+      "description": "A clientless remote desktop gateway.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/guacamole/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/guacamole/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/guacamole/README.md",
+      "content_hash": "8dc846e7fcba8cb31d4a4172e76fb6b60c9bcee10f6d13685d1d20e5b3eae980",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "htpcmanager",
+      "name": "HTPC Manager",
+      "description": "HTPC Manaager, a front end for many htpc related applications. Hellowlol version.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/htpcmanager/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/htpcmanager/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/htpcmanager/README.md",
+      "content_hash": "a2426cf4803a2388f518686b8f168b2a961625c153345a51f2d67198abf14c30",
+      "tags": [
+        "video",
+        "music",
+        "other"
+      ]
+    },
+    {
+      "id": "lidarr",
+      "name": "lidarr",
+      "description": "Lidarr is a music collection manager for Usenet and BitTorrent users.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lidarr/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lidarr/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/lidarr/README.md",
+      "content_hash": "3d1a924a52645ddd674ee0a6180913c6fbf6833260dc090c779fb29afa02b707",
+      "tags": [
+        "downloaders",
+        "music"
+      ]
+    },
+    {
+      "id": "pihole",
+      "name": "Pi-Hole",
+      "description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/pihole/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/pihole/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/pihole/README.md",
+      "content_hash": "e47774d953b646fd48a450ae09d16f7e382578d3eeac8e3791289d54fa6ec7f3",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "piwigo",
+      "name": "Piwigo",
+      "description": "Piwigo is photo gallery software for the web, built by an active community of users and developers.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/piwigo/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/piwigo/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/piwigo/README.md",
+      "content_hash": "de115f3bd4f29f99cf3706658ffc588658649a25de55f0ad10467671b9f55767",
+      "tags": [
+        "photos"
+      ]
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "description": "Your favorite movies, TV, music, web shows, podcasts, and more, all streamed to your favorite screens.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/plex/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/plex/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/plex/README.md",
+      "content_hash": "13c7750c74a9916bf0dd89ad7dfb4f377bd23b9073c968a11ca4220578933d96",
+      "tags": [
+        "video",
+        "music",
+        "photos"
+      ]
+    },
+    {
+      "id": "plexrequests",
+      "name": "Plex Requests",
+      "description": "Simple automated way for users to request new content for Plex.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/plexrequests/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/plexrequests/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/plexrequests/README.md",
+      "content_hash": "762fab2004c88ee62749405c444a82346e5607a7ec808aaf27f38ed897717964",
+      "tags": [
+        "downloaders",
+        "other",
+        "video",
+        "tools"
+      ]
+    },
+    {
+      "id": "projectsend",
+      "name": "ProjectSend",
+      "description": "ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files!",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/projectsend/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/projectsend/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/projectsend/README.md",
+      "content_hash": "d5934dd3c837754241a686f9e6c4c06997fde100351c6e28e793d68b146c4902",
+      "tags": [
+        "cloud",
+        "productivity",
+        "tools",
+        "other"
+      ]
+    },
+    {
+      "id": "protonmail-bridge",
+      "name": "ProtonMail Bridge",
+      "description": "This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/protonmail-bridge/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/protonmail-bridge/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/protonmail-bridge/README.md",
+      "content_hash": "56f68cd0cbfdaefaf1add54332dec12f650858b2330ee2052d8e2a7d7b74b4d8",
+      "tags": [
+        "email",
+        "productivity",
+        "tools",
+        "other"
+      ]
+    },
+    {
+      "id": "pydio",
+      "name": "Pydio",
+      "description": "Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/pydio/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/pydio/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/pydio/README.md",
+      "content_hash": "9054f890dd7adcc66447174fb003d595504b13347ed463dc34732e8079fa6a0c",
+      "tags": [
+        "cloud",
+        "other"
+      ]
+    },
+    {
+      "id": "qbittorrent",
+      "name": "qBittorrent",
+      "description": "The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/qbittorrent/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/qbittorrent/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/qbittorrent/README.md",
+      "content_hash": "09fb1efa1b17c19fd2c3df0bc80b2da767295e151684af645737c0440ebfe1a5",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "quassel-core",
+      "name": "Quassel IRC",
+      "description": "Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/quassel-core/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/quassel-core/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/quassel-core/README.md",
+      "content_hash": "1bb28fbfbf887d1a7dad806395ce8871e84fb3c62b458e4077d1b36b85cc5794",
+      "tags": [
+        "messenger"
+      ]
+    },
+    {
+      "id": "radarr",
+      "name": "Radarr",
+      "description": "Radarr - A fork of Sonarr to work with movies à la Couchpotato.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/radarr/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/radarr/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/radarr/README.md",
+      "content_hash": "5213025599ab2182ead0bd523fd3145f40fc1b9d2f0f7254460070bddc425691",
+      "tags": [
+        "downloaders",
+        "video"
+      ]
+    },
+    {
+      "id": "reactive-resume",
+      "name": "Reactive-Resume",
+      "description": "A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/reactive-resume/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/reactive-resume/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/reactive-resume/README.md",
+      "content_hash": "81b51ee988cd3aa07a854afa17645fd1b06653daba0dbb14cc23b152a51850a7",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "resilio-sync",
+      "name": "Resilio Sync",
+      "description": "Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/resilio-sync/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/resilio-sync/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/resilio-sync/README.md",
+      "content_hash": "296eb7f1fb849f92e36470f8619ba832b6db39b38f3e1cb510f218a23d4c47a5",
+      "tags": [
+        "backup",
+        "cloud",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "rutorrent",
+      "name": "ruTorrent",
+      "description": "Popular torrent client with a webui for ease of use.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/rutorrent/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/rutorrent/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/rutorrent/README.md",
+      "content_hash": "cb7326073e411ee91cec775c11717b39a74162282c466ee9cb77e4d8dc0e8bcf",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "sabnzbd",
+      "name": "SABnzbd",
+      "description": "SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sabnzbd/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sabnzbd/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sabnzbd/README.md",
+      "content_hash": "f83e9980450d1b09d5053286d93ee89ed2861cea05a92d60b0a9350e7f5feaf5",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "shiori",
+      "name": "Shiori",
+      "description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/shiori/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/shiori/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/shiori/README.md",
+      "content_hash": "b93d4c6f54e0e67944135e84bf2770d3a5d1b9d9660ea93d4736f5aa91a96069",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "sickchill",
+      "name": "SickChill",
+      "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sickchill/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sickchill/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sickchill/README.md",
+      "content_hash": "7958e007c9f66a94ec7d5fc92906d66ff14581627370a4caeee2fcdf89a5519f",
+      "tags": [
+        "downloaders",
+        "video"
+      ]
+    },
+    {
+      "id": "sickgear",
+      "name": "SickGear",
+      "description": "SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sickgear/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sickgear/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sickgear/README.md",
+      "content_hash": "4941e6aaef45bea38ba83ccf6e62039f40ee2f95565bc7d5cbe2973d1926891d",
+      "tags": [
+        "downloaders",
+        "video"
+      ]
+    },
+    {
+      "id": "smokeping",
+      "name": "SmokePing",
+      "description": "Portainer template: SmokePing",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/smokeping/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/smokeping/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/smokeping/README.md",
+      "content_hash": "4fcf49320a380aa45720d418c63a9f83a4761449b8b1abf1a4d6060f24ece92f",
+      "tags": [
+        "management"
+      ]
+    },
+    {
+      "id": "sonarr",
+      "name": "Sonarr",
+      "description": "Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sonarr/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sonarr/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/sonarr/README.md",
+      "content_hash": "5895fd55768ccf75bc2261b7a35232b57969dbfc8d2c7e753d845cb2d35dccff",
+      "tags": [
+        "downloaders",
+        "video"
+      ]
+    },
+    {
+      "id": "syncthing",
+      "name": "SyncThing",
+      "description": "Portainer template: SyncThing",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/syncthing/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/syncthing/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/syncthing/README.md",
+      "content_hash": "2580be7275be80b81b7ed7b8d3e370067e37dc240d4f056a47dcb2e55569d71d",
+      "tags": [
+        "backup",
+        "cloud",
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "tautulli",
+      "name": "Tautulli",
+      "description": "Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.[br][br]\r\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\r\n  [b]8181[/b] The webui for Tautulli's webui [br]\r\n  [b]/config[/b] Storing Configuration and the Tautulli database[br]\r\n[b]/logs[/b] Map to you plex logs (required for IP logging)[br]",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tautulli/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tautulli/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tautulli/README.md",
+      "content_hash": "d74c9b624847b8611d7fd764ffd3ede8d4e4e6eddc80a0801cfa1e5d7a5ec88b",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "thelounge",
+      "name": "TheLounge",
+      "description": "A self-hosted web IRC client",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/thelounge/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/thelounge/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/thelounge/README.md",
+      "content_hash": "9f539adb1e70055d236c7dbda353338a1a1a595d7f98c86659f1b5407abcccb3",
+      "tags": [
+        "messenger"
+      ]
+    },
+    {
+      "id": "tiddlywiki",
+      "name": "TiddlyWiki",
+      "description": "A unique, non-linear notebook wiki.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tiddlywiki/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tiddlywiki/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tiddlywiki/README.md",
+      "content_hash": "821968972566d401cb698d4b67fc0f5e1f339d7178fb961fef8c0b4aa694a1c3",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "transmission",
+      "name": "Transmission",
+      "description": "Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/transmission/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/transmission/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/transmission/README.md",
+      "content_hash": "5fc8a08722aa42a9c11784116b4af51d580c1b7648b4290e9b5785df05a6fbe7",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "transmission-openvpn",
+      "name": "Transmission-OpenVPN",
+      "description": "This container contains OpenVPN and Transmission with a configuration\nwhere Transmission is running only when OpenVPN has an active tunnel.\nIt bundles configuration files for many popular VPN providers to make the setup easier.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/transmission-openvpn/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/transmission-openvpn/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/transmission-openvpn/README.md",
+      "content_hash": "a9d024e9d1f843f7d970a01111211571de49d8e7bbdfd304a443b5c48c7477d9",
+      "tags": [
+        "other",
+        "vpn",
+        "tools"
+      ]
+    },
+    {
+      "id": "tt-rss",
+      "name": "Tiny Tiny RSS",
+      "description": "Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tt-rss/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tt-rss/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tt-rss/README.md",
+      "content_hash": "9d598e49ee7739aeb8ba523e1b11d29caa5b4b648d4c6eea66f86b5094063705",
+      "tags": [
+        "other"
+      ]
+    },
+    {
+      "id": "tvheadend",
+      "name": "Tvheadend",
+      "description": "Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT&gt;IP and HDHomeRun as input sources.\r\nTvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT&gt;IP streaming.\r\nMultiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tvheadend/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tvheadend/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/tvheadend/README.md",
+      "content_hash": "07d900c583e4026a70c4d846cefb18a492bc891dde161d146152693e06750de0",
+      "tags": [
+        "video",
+        "other"
+      ]
+    },
+    {
+      "id": "vaultwarden",
+      "name": "Vaultwarden",
+      "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal..",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/vaultwarden/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/vaultwarden/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/vaultwarden/README.md",
+      "content_hash": "9dbfa96381cc9a4ff0944622af3a62d82a85435bee24d3ee5586e84e806ae554",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "ubooquity",
+      "name": "Ubooquity",
+      "description": "Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/ubooquity/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/ubooquity/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/ubooquity/README.md",
+      "content_hash": "a1543b3e6cf38072dd6fcd45c96ea258ab5e22b94aa79ae16934b882fc50e3a8",
+      "tags": [
+        "cloud",
+        "books"
+      ]
+    },
+    {
+      "id": "unifi-controller",
+      "name": "UniFi Controller",
+      "description": "Portainer template: UniFi Controller",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/unifi-controller/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/unifi-controller/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/unifi-controller/README.md",
+      "content_hash": "4b964c9d215d7af8202a018337877e4a55bbeb08b9ade0c56eacbd5a21fe48ab",
+      "tags": [
+        "management",
+        "tools"
+      ]
+    },
+    {
+      "id": "watchtower",
+      "name": "Watchtower",
+      "description": "With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/watchtower/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/watchtower/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/watchtower/README.md",
+      "content_hash": "8a6e57bc6243ca5ad20eb85263932e000a778ec21e1189313ab1b5072f7f3ac3",
+      "tags": [
+        "other",
+        "tools",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "webgrabplus",
+      "name": "WebGrab+Plus",
+      "description": "WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.[br]\r\n\t\tOptional postprocessors to add IMDb data or to customize your xmltv listing.[br]\r\n\t\thttp://www.webgrabplus.com/[br]\r\n\t\t[b][span style='color: #E80000;']Directions:[/span][/b][br]\r\n\t\t[b]/config[/b] : This is where WebGrab+Plus will store it's configuration.[br][br]\r\n\t\t[b]/data[/b] : This is where tv_grab_wg script in the Tvheadend container looks for the guide.xml file.[br][br]",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/webgrabplus/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/webgrabplus/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/webgrabplus/README.md",
+      "content_hash": "5ff81ecce2cc3f5f99df84af60fa13f04ac99d9d74e779607d058d1cfdbf96f3",
+      "tags": [
+        "downloaders"
+      ]
+    },
+    {
+      "id": "whoogle",
+      "name": "Whoogle",
+      "description": "Self-hosted, ad-free, privacy-respecting Google metasearch engine.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/whoogle/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/whoogle/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/whoogle/README.md",
+      "content_hash": "a5c73515d5d53b5d5f97d795a84890d75822b5760881739f6e6b428b2a4acc66",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "wikijs",
+      "name": "Wikijs",
+      "description": "Wikijs A modern, lightweight and powerful wiki app built on NodeJS.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/wikijs/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/wikijs/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/wikijs/README.md",
+      "content_hash": "b435727d28e07da253ff457c4995aefa09ab2041066ec09d7428b08108fde58f",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "youtubedl-material",
+      "name": "YouTubeDL-Material",
+      "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/youtubedl-material/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/youtubedl-material/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/youtubedl-material/README.md",
+      "content_hash": "eea387cb51d17381cc811790007d203d60233b8287d64916b0cb0c09056add4a",
+      "tags": [
+        "other",
+        "downloaders"
+      ]
+    },
+    {
+      "id": "unifi-video",
+      "name": "UniFi Video",
+      "description": "UniFi Video is a powerful and flexible, integrated IP video management surveillance system designed to work with Ubiquiti’s UniFi Video Camera product line. UniFi Video has an intuitive, configurable, and feature‑packed user interface with advanced features such as motion detection, auto‑discovery, user‑level security, storage management, reporting, and mobile device support.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/unifi-video/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/unifi-video/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/unifi-video/README.md",
+      "content_hash": "bf0e763aa4e41391490b4dd3a708f64ace0c9dc6f616578b7b834c9d80f1553b",
+      "tags": [
+        "cctv"
+      ]
+    },
+    {
+      "id": "yacht",
+      "name": "Yacht",
+      "description": "A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/yacht/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/yacht/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/yacht/README.md",
+      "content_hash": "a00c3469034be0c255ed03247c9d69fc3f6c0688736f313ab9e8564a7e1d37b2",
+      "tags": [
+        "other",
+        "tools"
+      ]
+    },
+    {
+      "id": "znc",
+      "name": "ZNC",
+      "description": "ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/znc/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/znc/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/znc/README.md",
+      "content_hash": "c7fafb99b37e6c6844874a3f73542159949f48d5d3058a543d0eb3ba581bfd22",
+      "tags": [
+        "messenger"
+      ]
+    },
+    {
+      "id": "deluge-openvpn",
+      "name": "Deluge openvpn",
+      "description": "This container contains OpenVPN and Deluge with a configuration where Deluge is running only when OpenVPN has an active tunnel. It bundles configuration files for many popular VPN providers to make the setup easier.",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deluge-openvpn/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deluge-openvpn/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/deluge-openvpn/README.md",
+      "content_hash": "172e2264ed0b2ed9587a772e3290b5bfc537e54c56aa93c85e5a6b4bcc2bc473",
+      "tags": [
+        "other",
+        "vpn",
+        "tools"
+      ]
+    },
+    {
+      "id": "dradis",
+      "name": "Dradis",
+      "description": "Dradis Framework: Collaboration and reporting for IT Security teams http://dradisframework.org",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/dradis/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/dradis/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/dradis/README.md",
+      "content_hash": "d7f48278de4df64a1a96ad5de939a7db70096468c96aff56bab8de34279a5666",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "peppermint",
+      "name": "Peppermint",
+      "description": "Peppermint is a free and open source tickeg management solution with a range of features",
+      "version": "1.0.0",
+      "author": "Qballjos/portainer_templates",
+      "compose_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/peppermint/docker-compose.yml",
+      "env_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/peppermint/.env.example",
+      "documentation_url": "https://example.com/arcane-portainer-templates/selfhostedpro/templates/peppermint/README.md",
+      "content_hash": "f7e2a81a017c44dd3c481fcffeede69a7c45df48b1546859cc2c8100e64a063e",
+      "tags": [
+        "other",
+        "tools",
+        "management"
+      ]
+    }
+  ]
+}

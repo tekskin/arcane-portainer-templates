@@ -1,0 +1,14 @@
+services:
+  lazylibrarian:
+    image: linuxserver/lazylibrarian:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '5299:5299/tcp'
+    volumes:
+      - '/config'
+      - '/downloads'
+      - '/books'
+    restart: 'unless-stopped'
+    platform: 'linux'

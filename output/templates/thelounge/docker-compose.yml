@@ -1,0 +1,12 @@
+services:
+  thelounge:
+    image: linuxserver/thelounge:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '9000:9000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/TheLounge:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

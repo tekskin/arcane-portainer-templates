@@ -1,0 +1,12 @@
+services:
+  htpcmanager:
+    image: lscr.io/linuxserver/htpcmanager:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8085:8085/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/HTPCmanager:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

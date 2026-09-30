@@ -1,0 +1,14 @@
+services:
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '7878:7878/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Radarr:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+      - '${PORTAINER_ROOT}/Movies:/movies'
+    restart: 'unless-stopped'
+    platform: 'linux'

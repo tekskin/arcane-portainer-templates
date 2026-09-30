@@ -1,0 +1,12 @@
+services:
+  quassel-core:
+    image: lscr.io/linuxserver/quassel-core:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '4242:4242/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Quassel-core:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

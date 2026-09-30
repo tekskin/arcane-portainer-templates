@@ -1,0 +1,13 @@
+services:
+  pydio:
+    image: lscr.io/linuxserver/pydio:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '443/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Pydio:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/Pydio:/data'
+    restart: 'unless-stopped'
+    platform: 'linux'

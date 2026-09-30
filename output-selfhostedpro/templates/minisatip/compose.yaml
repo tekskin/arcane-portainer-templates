@@ -1,0 +1,12 @@
+services:
+  minisatip:
+    image: lscr.io/linuxserver/minisatip:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8875:8875/tcp'
+      - '554:554/tcp'
+      - '1900:1900/udp'
+    restart: 'unless-stopped'
+    platform: 'linux'

@@ -1,0 +1,9 @@
+services:
+  whoogle:
+    image: benbusby/whoogle-search:latest
+    ports:
+      - '5001:5000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Whoogle:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

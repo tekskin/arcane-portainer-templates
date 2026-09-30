@@ -1,0 +1,12 @@
+services:
+  minetest:
+    image: lscr.io/linuxserver/minetest:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '30000:30000/udp'
+    volumes:
+      - '/config/.minetest'
+    restart: 'unless-stopped'
+    platform: 'linux'

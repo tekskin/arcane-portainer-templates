@@ -1,0 +1,15 @@
+services:
+  booksonic:
+    image: lscr.io/linuxserver/booksonic:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      CONTEXT_PATH: '${CONTEXT_PATH:-booksonic}'
+    ports:
+      - '4040:4040/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Books:/books'
+      - '${PORTAINER_ROOT}/Files/Podcasts:/podcast'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Booksonic:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

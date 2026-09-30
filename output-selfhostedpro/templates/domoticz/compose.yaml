@@ -1,0 +1,14 @@
+services:
+  domoticz:
+    image: lscr.io/linuxserver/domoticz:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '1443:1443/tcp'
+      - '6144:6144/tcp'
+      - '8080:8080/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Domoticz:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

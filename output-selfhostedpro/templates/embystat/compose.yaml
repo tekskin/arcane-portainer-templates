@@ -1,0 +1,9 @@
+services:
+  embystat:
+    image: lscr.io/linuxserver/embystat:latest
+    ports:
+      - '6555:6555/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/EmbyStat:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

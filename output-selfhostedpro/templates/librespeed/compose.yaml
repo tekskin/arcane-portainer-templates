@@ -1,0 +1,9 @@
+services:
+  librespeed:
+    image: lscr.io/linuxserver/librespeed:latest
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/LibreSpeed:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

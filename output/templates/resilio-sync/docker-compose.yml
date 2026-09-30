@@ -1,0 +1,12 @@
+services:
+  resilio-sync:
+    image: linuxserver/resilio-sync:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Resilio-Sync:/config'
+      - '/sync'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+    restart: 'unless-stopped'
+    platform: 'linux'

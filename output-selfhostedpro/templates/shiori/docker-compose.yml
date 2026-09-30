@@ -1,0 +1,9 @@
+services:
+  shiori:
+    image: radhifadlillah/shiori:latest
+    ports:
+      - '8080/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Shiori:/srv/shiori'
+    restart: 'unless-stopped'
+    platform: 'linux'

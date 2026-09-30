@@ -1,0 +1,13 @@
+services:
+  cops:
+    image: linuxserver/cops:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Books:/books'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Cops:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

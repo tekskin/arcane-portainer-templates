@@ -1,0 +1,16 @@
+services:
+  emby:
+    image: lscr.io/linuxserver/emby:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      TZ: '${TZ:-}'
+    ports:
+      - '8096:8096/tcp'
+      - '8920:8920/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Emby:/config'
+      - '${PORTAINER_ROOT}/TV:/data/tvshows'
+      - '${PORTAINER_ROOT}/Movies:/data/movies'
+    restart: 'unless-stopped'
+    platform: 'linux'

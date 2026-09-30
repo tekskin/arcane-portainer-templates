@@ -1,0 +1,13 @@
+services:
+  tautulli:
+    image: lscr.io/linuxserver/tautulli:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8181:8181/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Logs:/logs'
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Tautulli:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

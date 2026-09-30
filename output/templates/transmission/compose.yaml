@@ -1,0 +1,15 @@
+services:
+  transmission:
+    image: linuxserver/transmission:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '9091:9091/tcp'
+      - '51413:51413/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Transmission:/config'
+      - '${PORTAINER_ROOT}/Files/Downloads:/downloads'
+      - '/watch'
+    restart: 'unless-stopped'
+    platform: 'linux'

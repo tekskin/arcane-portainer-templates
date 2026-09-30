@@ -1,0 +1,12 @@
+services:
+  gazee:
+    image: linuxserver/gazee:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Gazee:/config'
+      - '${PORTAINER_ROOT}/Comics:/comics'
+      - '${PORTAINER_ROOT}/Files/AppData/Gazee:/mylar'
+    restart: 'unless-stopped'
+    platform: 'linux'

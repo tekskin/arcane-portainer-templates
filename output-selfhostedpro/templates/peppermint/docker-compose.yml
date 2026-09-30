@@ -1,0 +1,16 @@
+services:
+  peppermint:
+    image: pepperlabs/peppermint:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      PORT: '${PORT:-5001}'
+      DB_USERNAME: '${DB_USERNAME:-peppermint}'
+      DB_PASSWORD: '${DB_PASSWORD:-1234}'
+      DB_HOST: '${DB_HOST:-postgres}'
+    ports:
+      - '5001:5001/tcp'
+    volumes:
+      - '/srv/dev-disk-by-label-media/Files/AppData/Config/peppermint:/data'
+    restart: 'unless-stopped'
+    platform: 'linux'

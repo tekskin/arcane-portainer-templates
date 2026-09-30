@@ -1,0 +1,13 @@
+services:
+  lychee:
+    image: linuxserver/lychee:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Lychee:/config'
+      - '${PORTAINER_ROOT}/Pictures:/pictures'
+    restart: 'unless-stopped'
+    platform: 'linux'

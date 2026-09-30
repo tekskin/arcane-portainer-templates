@@ -1,0 +1,13 @@
+services:
+  heimdall:
+    image: linuxserver/heimdall:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '80/tcp'
+      - '443/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Heimdall:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

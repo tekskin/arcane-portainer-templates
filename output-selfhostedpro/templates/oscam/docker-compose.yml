@@ -1,0 +1,13 @@
+services:
+  oscam:
+    image: lscr.io/linuxserver/oscam:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8888:8888/tcp'
+      - '10000:10000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/OScam:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

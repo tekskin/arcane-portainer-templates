@@ -1,0 +1,11 @@
+services:
+  webgrabplus:
+    image: lscr.io/linuxserver/webgrabplus:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/WebGrabPlus:/config'
+      - '${PORTAINER_ROOT}/Files/AppData/WebGrabPlus:/data'
+    restart: 'unless-stopped'
+    platform: 'linux'

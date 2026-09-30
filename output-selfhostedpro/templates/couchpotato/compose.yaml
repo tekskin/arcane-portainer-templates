@@ -1,0 +1,14 @@
+services:
+  couchpotato:
+    image: lscr.io/linuxserver/couchpotato:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '5050:5050/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Couchpotato:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+      - '${PORTAINER_ROOT}/Movies:/movies'
+    restart: 'unless-stopped'
+    platform: 'linux'

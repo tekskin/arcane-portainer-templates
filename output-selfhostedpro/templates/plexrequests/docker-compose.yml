@@ -1,0 +1,13 @@
+services:
+  plexrequests:
+    image: lscr.io/linuxserver/plexrequests:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      URL_BASE: '${URL_BASE:-}'
+    ports:
+      - '3000:3000/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/PlexRequests:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

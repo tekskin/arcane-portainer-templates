@@ -1,0 +1,12 @@
+services:
+  znc:
+    image: lscr.io/linuxserver/znc:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '6501:6501/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/ZNC:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

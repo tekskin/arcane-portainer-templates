@@ -1,0 +1,13 @@
+services:
+  doplarr-rs:
+    image: linuxserver/doplarr_rs:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-1000}'
+      TZ: '${TZ:-Etc/UTC}'
+    ports:
+      - '80:80/tcp'
+    volumes:
+      - '/srv/lsio/doplarr_rs/config:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

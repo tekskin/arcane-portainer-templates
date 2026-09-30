@@ -1,0 +1,15 @@
+services:
+  duplicati:
+    image: lscr.io/linuxserver/duplicati:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8200:8200/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Duplicati:/config'
+      - '/tmp'
+      - '/backups'
+      - '/source'
+    restart: 'unless-stopped'
+    platform: 'linux'

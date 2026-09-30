@@ -1,0 +1,13 @@
+services:
+  mariadb:
+    image: lscr.io/linuxserver/mariadb:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD:-}'
+    ports:
+      - '3306:3306/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Mariadb:/config'
+    restart: 'unless-stopped'
+    platform: 'linux'

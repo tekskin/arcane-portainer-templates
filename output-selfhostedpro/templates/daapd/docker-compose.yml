@@ -1,0 +1,11 @@
+services:
+  daapd:
+    image: lscr.io/linuxserver/daapd:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Daapd:/config'
+      - '${PORTAINER_ROOT}/Music:/music'
+    restart: 'unless-stopped'
+    platform: 'linux'

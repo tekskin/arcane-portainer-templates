@@ -1,0 +1,14 @@
+services:
+  beets:
+    image: linuxserver/beets:latest
+    environment:
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    ports:
+      - '8337:8337/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/Beets:/config'
+      - '${PORTAINER_ROOT}/Downloads:/downloads'
+      - '${PORTAINER_ROOT}/Music:/music'
+    restart: 'unless-stopped'
+    platform: 'linux'

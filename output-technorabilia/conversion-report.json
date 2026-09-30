@@ -1,0 +1,1619 @@
+{
+  "source_url": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+  "source_version": "3",
+  "source_template_count": 201,
+  "converted": [
+    {
+      "id": "adguardhome-sync",
+      "source_name": "Adguardhome-sync",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1f1be978e3524ed637f821dae63677479ef357a6d72504cf3a4366efb1b809a9"
+    },
+    {
+      "id": "airsonic-advanced",
+      "source_name": "Airsonic-advanced",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "deba0624f97cff4b175f6859c67bd50a69b6edb3174ae062557e95560d4a87d6"
+    },
+    {
+      "id": "altus",
+      "source_name": "Altus",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "181366bab7e7c1230072e3d4da099e94e1431c177d09a7aaa11725a9466b3ff7"
+    },
+    {
+      "id": "apprise-api",
+      "source_name": "Apprise-api",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a43effe9935beb8923abf593843d845fd707a024c5f169192f2dc5e3c2868feb"
+    },
+    {
+      "id": "ardour",
+      "source_name": "Ardour",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "29017dc0e19ce54888472d001df22f5b8a8aba9f6594bba358142c5a383e08db"
+    },
+    {
+      "id": "audacity",
+      "source_name": "Audacity",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "66d9547ded41481d99595c7b36848deef7b3d3a752cd182664b1fa0fa9cfa98a"
+    },
+    {
+      "id": "azahar",
+      "source_name": "Azahar",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e5ab136f8a59cb7b825d1562ee4153c77101b736a32dd9f004b75a4a0aa5fb27"
+    },
+    {
+      "id": "babybuddy",
+      "source_name": "Babybuddy",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3828f8a06c43ec27064d5a0b5092c283a76df0c0c9c7e20af973fae725a0b857"
+    },
+    {
+      "id": "bambustudio",
+      "source_name": "Bambustudio",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3a58792ba0fe511a07a19c5f7fbc1cc4ae2d5a5752dcf318132074f10c09a675"
+    },
+    {
+      "id": "bazarr",
+      "source_name": "Bazarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "ec967cf3c1028364254ec863c6efa5e5c14d04589b32d7cf78c6c89e61cdbca8"
+    },
+    {
+      "id": "beets",
+      "source_name": "Beets",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "613d6cd90065ddca7d45b0fa04c93eb8072f0be0f646678dbbc5cc20898db055"
+    },
+    {
+      "id": "bitcoin-knots",
+      "source_name": "Bitcoin-knots",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "95d79f618e3d8c99fa43e5c8747e4513942aeb4593c67695b5f0df4525bf536a"
+    },
+    {
+      "id": "blade-of-agony",
+      "source_name": "Blade-of-agony",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c490a20d014542c851a1d34f14a0993cfbd4b48acf1b7e9af91d97fa79db0d72"
+    },
+    {
+      "id": "blender",
+      "source_name": "Blender",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "18427b738ef0788277c955a58bfcdbff36f7b460410f795363e75a968db9b0dc"
+    },
+    {
+      "id": "boinc",
+      "source_name": "Boinc",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b0fb6d1b3dcc611a885de6c0bfbc6af0a365b2ba7261b4cb99c4292d2b006634"
+    },
+    {
+      "id": "bookstack",
+      "source_name": "Bookstack",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "463bc6cdb8697892911ed9601993c025bc8fdb180b35a53bb6587e365aaefc42"
+    },
+    {
+      "id": "brave",
+      "source_name": "Brave",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "ac7db16c5a9eeb6a102e63e68a1e96c74b076e8f2dd16314492c64b26a36944e"
+    },
+    {
+      "id": "budge",
+      "source_name": "Budge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "dfd34460bc8b1db98b50a5bd42f7fade9368448ac0f5a61f867abc1b92ed09b7"
+    },
+    {
+      "id": "calibre",
+      "source_name": "Calibre",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d8be667ed3bd797c893f73f2639cadce172e662f5bdc823a1a5df189929f58dc"
+    },
+    {
+      "id": "calibre-web",
+      "source_name": "Calibre-web",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1c12c5e6dfd05781bc3cf0f51bbcd189c2bffdbdf29e168736ff17d5b460c32e"
+    },
+    {
+      "id": "calligra",
+      "source_name": "Calligra",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "5926f1a48b85b45749c9cb343bc9b5656b2d53d5655c21a524b039e7ee541ff9"
+    },
+    {
+      "id": "changedetection-io",
+      "source_name": "Changedetection.io",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "81e07bb089a74fbfd30967f0b2d7be1506360a3fee30ed30c5bb6cd52278e8fa"
+    },
+    {
+      "id": "chrome",
+      "source_name": "Chrome",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "dc7ef66205aa54df82c06229d4cdf787f73a8c09c8faa8d966cefcf3ad2d704a"
+    },
+    {
+      "id": "chromium",
+      "source_name": "Chromium",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "46c5793056acc6eab900d88236eff3be3ded31976fca037acdfb609229cbfe1e"
+    },
+    {
+      "id": "code-server",
+      "source_name": "Code-server",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d2a9c12f9d7ea950da65f06603680f8ecead9a1aa3a8590aecbed1415040ba5b"
+    },
+    {
+      "id": "cops",
+      "source_name": "Cops",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "253b08b9f3694916a29de1a68eed3aa8c2dec27d54133eddc3aaf07b63ab7786"
+    },
+    {
+      "id": "cura",
+      "source_name": "Cura",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1317053cdaa7cdc7b1ce09c64122eadb6c4142c24e8d03d50805cca1e9d96434"
+    },
+    {
+      "id": "darktable",
+      "source_name": "Darktable",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "005aa945caf241273027d8fbbab74c8e747ffcb64bde88662346e9c1ffb60ef1"
+    },
+    {
+      "id": "davos",
+      "source_name": "Davos",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "0308af74eaa28890fade49ba9bdd209561f5244ddc3ddb63b913d18c01b5c6dc"
+    },
+    {
+      "id": "ddclient",
+      "source_name": "Ddclient",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c8393470c2d5931350878ad952be62a93dc1542ea4d5892f1f695b088590ab5a"
+    },
+    {
+      "id": "deluge",
+      "source_name": "Deluge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b6433f99e6dc8d9d261a111a91501ead07a8f7e300c8bb76da05367985b2830a"
+    },
+    {
+      "id": "digikam",
+      "source_name": "Digikam",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "dafc3ce7a70472b208ba9d8c1cd08e191a35a694cd86be4f2d341eb1c2b61f3e"
+    },
+    {
+      "id": "diskover",
+      "source_name": "Diskover",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "fe89cbfa10455fbef70e710cc340dc8b53d6dc48bd5aa58f3dc3b713cdf4c00e"
+    },
+    {
+      "id": "dogwalk",
+      "source_name": "Dogwalk",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "72276ac6be2f137fdb1217a96c16a3e2ec727af5f0a52ebc4067ad2d9ac2d243"
+    },
+    {
+      "id": "dokuwiki",
+      "source_name": "Dokuwiki",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "f5f7b19ac455530ee039034249192c10d3e1972b5a99be47aa20d06b66c0d07b"
+    },
+    {
+      "id": "dolphin",
+      "source_name": "Dolphin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "9f679de8f6db468c25773ecc4993e68ed33332722cc6d792e8f4e511e7235ce6"
+    },
+    {
+      "id": "doplarr-rs",
+      "source_name": "Doplarr_rs",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2e355c7b24237411da326dea2320f63bf99e5e07ee571308c8ce1b74b16a845c"
+    },
+    {
+      "id": "dosbox-staging",
+      "source_name": "Dosbox-staging",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "976536e8e820d2297346321866d3cc5c0f5cbfb8bcbcc57eebf5874dccbfab9d"
+    },
+    {
+      "id": "doublecommander",
+      "source_name": "Doublecommander",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "de89f3d33108918ae28ab3608340912905254554e3bf40647d51db1fae378463"
+    },
+    {
+      "id": "duckdns",
+      "source_name": "Duckdns",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "789db878c630a314c8f1c4045c08277069b4625ca18b4d555da9e5c8a2cc6fa8"
+    },
+    {
+      "id": "duckstation",
+      "source_name": "Duckstation",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "65e847a2dc6887511cee146dc88317e43cd9483e811fa16e45f0aa8ee0b70662"
+    },
+    {
+      "id": "duplicati",
+      "source_name": "Duplicati",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2f690d1e81504b6367d020dd9213dc4813788c75d7afc0f1422bcc4375c9991b"
+    },
+    {
+      "id": "eden",
+      "source_name": "Eden",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a061e45c41cf13d6a34e01e12605df1b46712be430726635313b2d6ea6f7dd0e"
+    },
+    {
+      "id": "emby",
+      "source_name": "Emby",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a18e0f958f3db43a1c6f7709c528c90e652b2c80d2d08003540a26c93d208a45"
+    },
+    {
+      "id": "fail2ban",
+      "source_name": "Fail2ban",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c006b680bb9a95f73f24b5e3eb4c6fb223246d61b6ba761dd8158b511eeca16c"
+    },
+    {
+      "id": "faster-whisper",
+      "source_name": "Faster-whisper",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b0f42af2c1f4a2ad8e4c5988077553d8b44695db9355b9113d844949c5831bbd"
+    },
+    {
+      "id": "ferdium",
+      "source_name": "Ferdium",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3e65a51ba243c23aa718a22d714c6f2a8ebd0430c538b577d8666c82144f7a46"
+    },
+    {
+      "id": "ffmpeg",
+      "source_name": "Ffmpeg",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "8676ad7d06e1b6d131e3b26cf54811d6a42a0406b9f51f3f9274e673ee5eac83"
+    },
+    {
+      "id": "filezilla",
+      "source_name": "Filezilla",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e30e485585f45d210a749117505ce448c36a6fa31167a61e98c323353e5ebd50"
+    },
+    {
+      "id": "firefox",
+      "source_name": "Firefox",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b989c8bab2c2d6a03af7c2bf8a134a6369589284bf3cb4d2d33c4fae5beed0eb"
+    },
+    {
+      "id": "flexget",
+      "source_name": "Flexget",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1a2bc52ba9fc7f9a39ff1fd50d193085750a3ca7fca010c085c8f6183a4b960b"
+    },
+    {
+      "id": "flycast",
+      "source_name": "Flycast",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a6fb9456a2e648f4c98b0fa03ff74aef1cda72769fe48bb66f1df3c821c22d66"
+    },
+    {
+      "id": "foldingathome",
+      "source_name": "Foldingathome",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a80277902aa73c96afbc8540a426064bffd440286dd4e0fed97eda4d95176583"
+    },
+    {
+      "id": "freecad",
+      "source_name": "Freecad",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "fee9cc51c56e50ad70c3e65d7404d0fb424046729c3c1440c4851e204750d54e"
+    },
+    {
+      "id": "freshrss",
+      "source_name": "Freshrss",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "ad6b717601c1750ee3c6713af0b47e9c1133ecd49e270018113fd76145a6ada9"
+    },
+    {
+      "id": "gimp",
+      "source_name": "Gimp",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1a143503d539c726db8d75218ca59e597664e878e7dd614c5e61e62862c01c35"
+    },
+    {
+      "id": "github-desktop",
+      "source_name": "Github-desktop",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a6a535b4e89f07bccb16638c7f0dc2bf7f3751900a0318496bdc2856c4bb6f14"
+    },
+    {
+      "id": "gitqlient",
+      "source_name": "Gitqlient",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b34256704a311445113a12325204abbbaca4ebfb5de7e65c5fd733d207296351"
+    },
+    {
+      "id": "grav",
+      "source_name": "Grav",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "78874a11a01122c299a972e2ef13c0d6ef913bd9c2df0fe0e7b0a86c41f43871"
+    },
+    {
+      "id": "grocy",
+      "source_name": "Grocy",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c96590037860cf260be65abd9284ec927e8b44dcbbf36135a4ed05c820b33e91"
+    },
+    {
+      "id": "gzdoom",
+      "source_name": "Gzdoom",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "0ad1d5c59b09996f57f9a5c1ca3820814feb09187bc6cbeb513abab2ea3daf3f"
+    },
+    {
+      "id": "habridge",
+      "source_name": "Habridge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "af2f430413e53e8b428f771a532db3bd398480103fb01d3019f24184031043ee"
+    },
+    {
+      "id": "handbrake",
+      "source_name": "Handbrake",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "5bedfd089cc0aae0efb0685cd5808ff09b0aebfb862e17d4911d4bdec93390ec"
+    },
+    {
+      "id": "healthchecks",
+      "source_name": "Healthchecks",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "0a91931dd5f898799093b1a1a5227908731198be29b653a47e1343c59e029694"
+    },
+    {
+      "id": "hedgedoc",
+      "source_name": "Hedgedoc",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "72c52df00298b24e67dfc9da48b6f9bdece22b249280259a317bb5e5fcf7f3a4"
+    },
+    {
+      "id": "heimdall",
+      "source_name": "Heimdall",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "054e384fcd16aff93ea6742c2ed81fa342948091bbad535d7bd8096c5109e312"
+    },
+    {
+      "id": "helium",
+      "source_name": "Helium",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "66062b49ccb46dd78b9c1e6a654eca898604ff5d8b5251038c8dc22d5ee89f38"
+    },
+    {
+      "id": "hishtory-server",
+      "source_name": "Hishtory-server",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "6f25eceeb1fde3ef9f2ac7ac841bb82e248564a4a8f690895ce4d1fd446458a3"
+    },
+    {
+      "id": "homeassistant",
+      "source_name": "Homeassistant",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "4badbe8b3998cc6b810c320da85844220a60134b1fe114c97074bdef76a33779"
+    },
+    {
+      "id": "htpcmanager",
+      "source_name": "Htpcmanager",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "02740f1a469b2e120c7d30627c834ec101be926d01129a10d9b51b02c3fea899"
+    },
+    {
+      "id": "inkscape",
+      "source_name": "Inkscape",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "426dcee92580c23fd8222aa7289d5fc02bb6f36f7a20219f5edb9b6a772f47d3"
+    },
+    {
+      "id": "intellij-idea",
+      "source_name": "Intellij-idea",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "7c10ca23cc9d882840a92a8dcc4d3ef4a3c1f4f7effaad395cd56b53fd253997"
+    },
+    {
+      "id": "jackett",
+      "source_name": "Jackett",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c7585397f9d4cd9e91862775b8ce4e80a2de936e876468b41fd50ff309a7f2ed"
+    },
+    {
+      "id": "jellyfin",
+      "source_name": "Jellyfin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "da53cb5f9c86a693f3f311782c6e72fcfedd43432351e52253151a9a3e3d06e2"
+    },
+    {
+      "id": "joplin",
+      "source_name": "Joplin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "cf00b57a23726c9206e6cba7f7cd086ab1d019f1ee48808402fd53a564e3213d"
+    },
+    {
+      "id": "kali-linux",
+      "source_name": "Kali-linux",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "4b87184ae2f77b83a9f2e3e9c1141a0453ee8f7a547b570feb04dd67f76c45cd"
+    },
+    {
+      "id": "kasm",
+      "source_name": "Kasm",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1b61591c2a7c4919d39e4b7a6292738270bfea57b8188ea8c11e7820fa141c2b"
+    },
+    {
+      "id": "kavita",
+      "source_name": "Kavita",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "4a0b59baa0a6eb03ef739d6388a8995a29f43d148b88f82bfb713af27f41e5a5"
+    },
+    {
+      "id": "kdenlive",
+      "source_name": "Kdenlive",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d35d71728e74d5a34d0883c3effd172361ce686b9a4bdd308038cb65f00d1b01"
+    },
+    {
+      "id": "keepassxc",
+      "source_name": "Keepassxc",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "cd7643159148524725a610939f537b4f43536ef76b0aea047e4af035520ab825"
+    },
+    {
+      "id": "kicad",
+      "source_name": "Kicad",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1193a2f2717b9075f9fca58ed04ed8ca1a23e30e7e212302e6098096cfc6f996"
+    },
+    {
+      "id": "kimai",
+      "source_name": "Kimai",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "478ad83e8fa275ca6abe7ed1ee98402289d2c53864b161cc8b50a52cf8af6eb8"
+    },
+    {
+      "id": "kometa",
+      "source_name": "Kometa",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "376891716d95d9eb9c010d107b7fafe46866dcfa40fe3a1f1eb77afc454da835"
+    },
+    {
+      "id": "krita",
+      "source_name": "Krita",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a3ad1dc4ebf3b40e75c96dd606edd94ec76f4ca3be59b02fcdd78587cdb604d1"
+    },
+    {
+      "id": "lazylibrarian",
+      "source_name": "Lazylibrarian",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "676b75705e17b69c5a488b772036848db05d4496af077fbf33e439c78cf13abf"
+    },
+    {
+      "id": "ldap-auth",
+      "source_name": "Ldap-auth",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a7c064e99cb5ea9b84109e57ff6b2bcb4ac39ffdde20dd430f447bc317bd1e5d"
+    },
+    {
+      "id": "libreoffice",
+      "source_name": "Libreoffice",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "165af6ae7ec8af765623898fa6c2b776fac2d021d31df2d638516c26d276660e"
+    },
+    {
+      "id": "librespeed",
+      "source_name": "Librespeed",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2334b26a0591dc50fb0e061ba667896acff55d371473c8c40b8397789c9e1449"
+    },
+    {
+      "id": "librewolf",
+      "source_name": "Librewolf",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "138a53be371ef9e8612e1a90606cbd0c019c38b9e0b2b64977f9af5412624ff6"
+    },
+    {
+      "id": "lidarr",
+      "source_name": "Lidarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "4f2bd7a5d6321569e6d076b9a83b7579761a85fc602b2d0753e3903a8c890441"
+    },
+    {
+      "id": "limnoria",
+      "source_name": "Limnoria",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "183349225163ce89398ce1362c0100fe52a6313d286b0b030872f24ea819a375"
+    },
+    {
+      "id": "lm-studio",
+      "source_name": "Lm-studio",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "99ae38767b326e9af0d6440b2fc07330a3feb662d39a9039ccf2172fb6e235a1"
+    },
+    {
+      "id": "lollypop",
+      "source_name": "Lollypop",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e35709d4757e4a09b52710ef2df8415e36cc838c8cd4b1e6f5fc52388ed76ac9"
+    },
+    {
+      "id": "luanti",
+      "source_name": "Luanti",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b9fc2cbebd932df0bc66f748aa708dbd4d06ea577042b67bd2a781e4bcc1c0e5"
+    },
+    {
+      "id": "lychee",
+      "source_name": "Lychee",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "f743506eebcd4eeb72d56c5fbd3f4d82f51b6e60a26293a29ef09a68bd7e7a87"
+    },
+    {
+      "id": "mame",
+      "source_name": "Mame",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "57fce5e7a15c5e3a5853846fc94b3fa74e0154fee16024063e769d7145b9a287"
+    },
+    {
+      "id": "manyfold",
+      "source_name": "Manyfold",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "abd4d5e7bb6dd3d6d984f8088557463e96578853f70de292a1847486d399fb18"
+    },
+    {
+      "id": "mariadb",
+      "source_name": "Mariadb",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b5258f337601d7b36070826c4cbc2bfe2d73e5204de5f74cbf2cb7e113e35374"
+    },
+    {
+      "id": "mastodon",
+      "source_name": "Mastodon",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d4f1e7dacc86b23d3df67d0a50416d534086e852761397c2318171e3a37f979d"
+    },
+    {
+      "id": "mediaelch",
+      "source_name": "Mediaelch",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "97de0d74b8ffece063e13de50a95ced152e5e7e498e9fc331fd86233e9bd3bdd"
+    },
+    {
+      "id": "medusa",
+      "source_name": "Medusa",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a0a3b083832fd1c089a5222b626b734266f251626fc09d4a086cc7b4f4e47e33"
+    },
+    {
+      "id": "melonds",
+      "source_name": "Melonds",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b18d60f63a31e71f0a49233a020269651e7ae2c8eaa737ba8dc31a2e0c3f4c00"
+    },
+    {
+      "id": "minisatip",
+      "source_name": "Minisatip",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "296179053bfce1d00cbbb702f392f278e1f6787d9c5fb257a1502d4352e84af3"
+    },
+    {
+      "id": "modmanager",
+      "source_name": "Modmanager",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "07dc37a69da18a1e0f5392278140f522d801166bcb7cb97e0e2e933a00374da9"
+    },
+    {
+      "id": "modrinth",
+      "source_name": "Modrinth",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "93ce82164bfaad394fd6b7c84360ecddd90c7f987b4b0ce1ff8e77ba9515d84f"
+    },
+    {
+      "id": "msedge",
+      "source_name": "Msedge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "afb52714309dc2df6fd76aedfe2f3d59cc6ee56dd1d3c1e1d708d3bca8b3917e"
+    },
+    {
+      "id": "mstream",
+      "source_name": "Mstream",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "fa8ea17a7f37362deb623dc992237edd74d129c5dfa6febc40d5b47c0e024016"
+    },
+    {
+      "id": "mullvad-browser",
+      "source_name": "Mullvad-browser",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "31c990cc149473d9a9e9e5032729fd0668e4229175c002596c9f87c24a2e765b"
+    },
+    {
+      "id": "mylar3",
+      "source_name": "Mylar3",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "37dd7993e1064301bfd03e31dd94ea457056dd51f32ee4ca7787809b9daabde7"
+    },
+    {
+      "id": "mysql-workbench",
+      "source_name": "Mysql-workbench",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "83a9446fecb9f901d10ca7d6a6f68bd9ad75b6a8c369700eac12a1be7c57df8a"
+    },
+    {
+      "id": "netbox",
+      "source_name": "Netbox",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3d61767a303cc1c282fea9dc5a58067257468615df8f88d5b8dbe7f80a3e9188"
+    },
+    {
+      "id": "nextcloud",
+      "source_name": "Nextcloud",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "73db771250fb77ae1fc93b90776b859cff629a3d0fe5317cdfa8197173e32b84"
+    },
+    {
+      "id": "nginx",
+      "source_name": "Nginx",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "dbf446c3f4fb3f5406146504b5ff77f61e7b9fbc394dd144c017d93bb9144480"
+    },
+    {
+      "id": "ngircd",
+      "source_name": "Ngircd",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "17ceadcffe52bb7368c7c65b45db79e6f778155df6a1b38eb90cd1eeea526493"
+    },
+    {
+      "id": "nzbget",
+      "source_name": "Nzbget",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3f3e1321c5747de35538ba070015cf1f649ce0f43ef009d0baf3ab476cbfcd3e"
+    },
+    {
+      "id": "nzbhydra2",
+      "source_name": "Nzbhydra2",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a4ac6475d50fdb8bcb7cf676a38c54a0bf2616243d7062e0116e5ce3f4b5c62e"
+    },
+    {
+      "id": "obsidian",
+      "source_name": "Obsidian",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2ed187750f5b7c2813f0af91d8331512eca0061bef1098ba7c461bc9925aa226"
+    },
+    {
+      "id": "ombi",
+      "source_name": "Ombi",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "6d65650628129970dccf816d7971cd26e32093240f775f35015efbbd2a0a0bda"
+    },
+    {
+      "id": "onlyoffice",
+      "source_name": "Onlyoffice",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "39ae926def8055a4083d0611826a55e83e1f94d94fe20b91ed47deed2939825b"
+    },
+    {
+      "id": "openshot",
+      "source_name": "Openshot",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3544ac5a365661aaafa1ce929ef9870d2e4c01bc6b5232da66aafbec49b084e5"
+    },
+    {
+      "id": "openssh-server",
+      "source_name": "Openssh-server",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "9828cc236a89cb65c92f08fa5c8d7039c78b5c195aff70d95593e99a9c889582"
+    },
+    {
+      "id": "opera",
+      "source_name": "Opera",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "413b4d49d376197ece6a17fb97e54292eb4d9c2be804bb652eeceb8e1273f7a4"
+    },
+    {
+      "id": "orcaslicer",
+      "source_name": "Orcaslicer",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "56aaeb43a9dafa1bc2cb9cfba860b50743e81381d7117677a7b014f73f6aed90"
+    },
+    {
+      "id": "oscam",
+      "source_name": "Oscam",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3de1e33810283b743b8820f264d33d5c3e59703f99b1695bf53f1414feb9278f"
+    },
+    {
+      "id": "pairdrop",
+      "source_name": "Pairdrop",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "0edd59e779251d9028f086f79627b4fa40ceaafa9baf568103647bf2d61c2be5"
+    },
+    {
+      "id": "pcsx2",
+      "source_name": "Pcsx2",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "72f4e1261566c4784d2b336368a4f3f19f42ac7a442f566fbff5e9562d9d39aa"
+    },
+    {
+      "id": "pelorus",
+      "source_name": "Pelorus",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a13a586097ea4c820b199152b6933d7fb18331fe2d091b1ef096f8d842dcd9af"
+    },
+    {
+      "id": "phpmyadmin",
+      "source_name": "Phpmyadmin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "19c04e579f05a916e41085b9756eb8a99719db470e81ae3c79e47a12ea3f5340"
+    },
+    {
+      "id": "pidgin",
+      "source_name": "Pidgin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "33d2220cbd46db1ee2166c7b85542cc85ead43f12a0953424e810189bba6344f"
+    },
+    {
+      "id": "piper",
+      "source_name": "Piper",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "9d94a8e60508b93efa0a3d16c97c98732fc0598a9e2e0dc0a6f9674f34b2f417"
+    },
+    {
+      "id": "piwigo",
+      "source_name": "Piwigo",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "93041dfac8af7bc957207c58a8eb94875b0b807bdb8a3da4c5b9b67dc457dbb8"
+    },
+    {
+      "id": "planka",
+      "source_name": "Planka",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c252fde302555fc3844d23637abe7ae159a2610bc93f990f186c703a27105872"
+    },
+    {
+      "id": "plex",
+      "source_name": "Plex",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "61a7d11d32c348788ea95c28267e0152ac89e209c03cf6086f13b494d75ef393"
+    },
+    {
+      "id": "ppsspp",
+      "source_name": "Ppsspp",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "203e892d9de7a743949776af11f9b26b31106a9a05653b30fe96df35794df3df"
+    },
+    {
+      "id": "projectsend",
+      "source_name": "Projectsend",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c8c8cfa03f777f5c233307431a14c212f5ec3ebd62666cd1316245dce1462ba0"
+    },
+    {
+      "id": "prowlarr",
+      "source_name": "Prowlarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "8017073f19bcb1988dcbb89253f1f72505a1afbde26ea1e5b09566fd2dbf63ef"
+    },
+    {
+      "id": "pwndrop",
+      "source_name": "Pwndrop",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "682de5ea277f6b34e68201f8d5ce83a2469efa417fa4975dc2c06e59d2702905"
+    },
+    {
+      "id": "pycharm",
+      "source_name": "Pycharm",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "5a71544f2cfa315f1f70819d09fd3b133eeb824a60023353babc3d74ec0ee3c7"
+    },
+    {
+      "id": "pydio-cells",
+      "source_name": "Pydio-cells",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d977c087ca3fececcc0607c9a37fe280902a189eecdda0d82cc788ba88187d14"
+    },
+    {
+      "id": "pyload-ng",
+      "source_name": "Pyload-ng",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "313f38185c263c8d82bdcfecfaf48e6c83d971e788a8f65243d68359a3604520"
+    },
+    {
+      "id": "qbittorrent",
+      "source_name": "Qbittorrent",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a32fe2fc46061eb30586c35dedde1aa092abb87e6c87f4b4622635027dfde5d8"
+    },
+    {
+      "id": "qdirstat",
+      "source_name": "Qdirstat",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a67774723d4d9b34df9808aa0a5437147a6d6852bf0646cd404195d7f80d6100"
+    },
+    {
+      "id": "qemu-static",
+      "source_name": "Qemu-static",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "5a1cc21adaa7b92d4cc1285a1d1caab30fe5ad24789aa1bf08731142e3c38684"
+    },
+    {
+      "id": "radarr",
+      "source_name": "Radarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "297e6d0438da076601a746d12736a27cdb2cf180ba88c1df5efc9de237c007d6"
+    },
+    {
+      "id": "raneto",
+      "source_name": "Raneto",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "8449f26619ad34c26ee2384e357450c98f38f04c02dff8481267e8c9e73cb686"
+    },
+    {
+      "id": "rawtherapee",
+      "source_name": "Rawtherapee",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e042d5e34d8ccf3f9a7a66bc74a7d2df48b78883346fd682faca4b6fdde6db38"
+    },
+    {
+      "id": "remmina",
+      "source_name": "Remmina",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "528e5fe64b84c7d38a3938e5090fec104f277196ecb31fb6b22e099a2c55ebb5"
+    },
+    {
+      "id": "resilio-sync",
+      "source_name": "Resilio-sync",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e7f7345ac9ba7d34162f4bccceedab0906e2a3485a7b0efcac721a61c7a69ffa"
+    },
+    {
+      "id": "retroarch",
+      "source_name": "Retroarch",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c0f5a28649a0f79a70b5cd615778953ad35cdaa776effe7168f5ceb0f96040cb"
+    },
+    {
+      "id": "rpcs3",
+      "source_name": "Rpcs3",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "1b016a860a022fd911dd9b3917d64bc8183a601ca098135dbfb8b7dc605e2f0a"
+    },
+    {
+      "id": "rsnapshot",
+      "source_name": "Rsnapshot",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e1d1fa43c8d59f5299bd8eec622fcb4f8f77eca59630f5aa1c6a05006ab10605"
+    },
+    {
+      "id": "rustdesk",
+      "source_name": "Rustdesk",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "55c1c7f07b5ed0aa24379650f7100af0ff33014cdf0b0a5f6f5b411fac193852"
+    },
+    {
+      "id": "sabnzbd",
+      "source_name": "Sabnzbd",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "f3b67cfd6807705dbaeffca1dc469fd70e877aa080125833d79f5a3079686872"
+    },
+    {
+      "id": "scummvm",
+      "source_name": "Scummvm",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "78df7cd4bcd81111d766cc09896412573d07b83a4d6dae1619caa8c4aa8ede69"
+    },
+    {
+      "id": "sealskin",
+      "source_name": "Sealskin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "56ad838b2edfba535aba908244aa1df236a203e323ea50fb57026dc715509055"
+    },
+    {
+      "id": "shadps4",
+      "source_name": "Shadps4",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "67b79d55f70d3c8ca3b179bf3513aea0daaaf934ecaec0e29736195df5fc4910"
+    },
+    {
+      "id": "shotcut",
+      "source_name": "Shotcut",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "3e08b119c088b969e8add8cc18f2321660010cdf4b355c66ea7bc06193fdbd9b"
+    },
+    {
+      "id": "sickgear",
+      "source_name": "Sickgear",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "015632e7a1455217ef9d5f08d6962ba8b28f1ffa6768e3e34d0ab8e9733dec29"
+    },
+    {
+      "id": "signal",
+      "source_name": "Signal",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "26d1a771bcbbf5a604e2ecfb20582f63529936b736de70541f8fe2c47d06b20f"
+    },
+    {
+      "id": "smokeping",
+      "source_name": "Smokeping",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "22ca49534cb2600ea90669cb6ca3feafbe9110b46ed5461e41df633030e558db"
+    },
+    {
+      "id": "socket-proxy",
+      "source_name": "Socket-proxy",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "6ec0f3684308b6fbeb08445602b5dcc21b9045d4dc13f656860906238a4aef3d"
+    },
+    {
+      "id": "sonarr",
+      "source_name": "Sonarr",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "7ac554f8c8a3cd6652f6e67e3d739aaa13f6b3bd7ce21b50b328990ddafb13b4"
+    },
+    {
+      "id": "speedtest-tracker",
+      "source_name": "Speedtest-tracker",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "166e6fbdcc1f547c5a47b1216c65332113989bcdbbbcf1f149699d9a53d8ed6a"
+    },
+    {
+      "id": "spotube",
+      "source_name": "Spotube",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "04e6b6156aa0f7771e7bd9ae67f234091e1e1714e76707a99336c709076d0b33"
+    },
+    {
+      "id": "sqlitebrowser",
+      "source_name": "Sqlitebrowser",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "5dae1e7285b4fd76f2d530f7924a94b961f97a7e0c061d86b0078a8622db08ac"
+    },
+    {
+      "id": "steam",
+      "source_name": "Steam",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "4e4c9f2574ed3031f9b0e37e9f1c7fd4b2735dbf828a5f82b7ebf6fbe0c1f1b4"
+    },
+    {
+      "id": "swag",
+      "source_name": "Swag",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a753075cd004db8a7f80055d39e8ca2283c532d2f4c3f1d86ab83ef364704b8a"
+    },
+    {
+      "id": "synclounge",
+      "source_name": "Synclounge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "8c0d4ebcaaebe8efb83b6039fbf1c17f47e789f830209aaf2ce96be4a0cfcfb6"
+    },
+    {
+      "id": "syncthing",
+      "source_name": "Syncthing",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2e6df722d01cf5f1f59971c5f8eec679116eb0cf09a58b0da008237c1430983c"
+    },
+    {
+      "id": "syslog-ng",
+      "source_name": "Syslog-ng",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "b4ef38a8145a163f7b8a64ea91f7e8e7766b1917cfae9fd11d96a36080ef8903"
+    },
+    {
+      "id": "tautulli",
+      "source_name": "Tautulli",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "6bdbdab71d8191d1ea29dcf69a59859236c4b78c4453b4d83f87b6c1663a2c25"
+    },
+    {
+      "id": "telegram",
+      "source_name": "Telegram",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d2b7339a266eb16900b087345e933d65b04d3a0a4cc2dc7a4baa2a2b5a3935de"
+    },
+    {
+      "id": "thelounge",
+      "source_name": "Thelounge",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a059ad8566e8e76df4a13b5246231a37215a91c689433e853159cfadaa35eaf5"
+    },
+    {
+      "id": "thunderbird",
+      "source_name": "Thunderbird",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "4cfc7e85acb77c60b4d3c00c83ad820bd4375493383bf5d4c49f0444f46a5cc3"
+    },
+    {
+      "id": "transmission",
+      "source_name": "Transmission",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "111ffb1d5c7cd10b4ab9a6af5968c3f30f42426c681f7ba335ed140d41df69b1"
+    },
+    {
+      "id": "tvheadend",
+      "source_name": "Tvheadend",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "0b3271a6c065565e18fdef2af940f23d6446fa8a799161eadec39859d2b1bbc3"
+    },
+    {
+      "id": "ubooquity",
+      "source_name": "Ubooquity",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "bf704634d3c7dfaff8e97b64adf7e99f0d19f8b9538cbd0fdac0bf2cec29df52"
+    },
+    {
+      "id": "ungoogled-chromium",
+      "source_name": "Ungoogled-chromium",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "8f0e732ed8619447556a525938dfeb6167aac86af43a2b957a679f43f94757ea"
+    },
+    {
+      "id": "unifi-network-application",
+      "source_name": "Unifi-network-application",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c215babc3dc9644410329de4a9c86c93dc7f7a5b3a4ea860dee04c5c7fd0a6b0"
+    },
+    {
+      "id": "vivaldi",
+      "source_name": "Vivaldi",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "6c84e9aa54fe21cf91e57680d3dfe2d03479a3b7e6cebebac5154382d6cf58de"
+    },
+    {
+      "id": "vlc",
+      "source_name": "Vlc",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "cab0c54225966110631a1984902dd2da51093f3b000b63ed30a47f73788ff890"
+    },
+    {
+      "id": "vscode",
+      "source_name": "Vscode",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "71cea19be03e56ec674ed3dadc653cc4b2e432c60e819869e81e2f1246a0b661"
+    },
+    {
+      "id": "vscodium",
+      "source_name": "Vscodium",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "10b04adb8aad7fc8d1f3dec5d9aa5ed0e256ab2b985fd26a034113cc3255b036"
+    },
+    {
+      "id": "vscodium-web",
+      "source_name": "Vscodium-web",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "14411c8499f17c37bcd0eba796d8e59d51e895b6e2752c0f1fda89eb2e07c1d3"
+    },
+    {
+      "id": "webcord",
+      "source_name": "Webcord",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "48ebb721a6a0ebe0eb3b04c3573051de8309d61547157cdb2e182f0c66a33e05"
+    },
+    {
+      "id": "webgrabplus",
+      "source_name": "Webgrabplus",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "5a838d8242fbee2ca0f77de4d21f22f6318f4a62190b61ec199cd5be40c54dd6"
+    },
+    {
+      "id": "webstation",
+      "source_name": "Webstation",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "0794f97a5e68ad0248054474a71b9bf75e1f2c281d6b4fe11bccf78915232831"
+    },
+    {
+      "id": "webtop",
+      "source_name": "Webtop",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a795b3c0738d03f3480cb0e1700cce08d5c280d74fc5f4ae33bcef66ff6320bb"
+    },
+    {
+      "id": "weixin",
+      "source_name": "Weixin",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "22cce3e1583578caede67c5f5075cdcf57d59d4998158b9ab8643fb8e493b4e9"
+    },
+    {
+      "id": "wikijs",
+      "source_name": "Wikijs",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "828d248286cfad078edca4315abf598e40522a4d129c8157f429ba07e94fe2a9"
+    },
+    {
+      "id": "winegui",
+      "source_name": "Winegui",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "25b179affbd879e43ea964d806bd426bc06a4c60fa1a714c92bbfe59cbf884c4"
+    },
+    {
+      "id": "wireguard",
+      "source_name": "Wireguard",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "a3b4a338947f0f35709cd3ba957baa43530c86b8785c56a22f8b9e82f6e7fcf3"
+    },
+    {
+      "id": "wireshark",
+      "source_name": "Wireshark",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "d2b0beb435d31dee5c0397625da160c264a5d4f10bedaec72554a65aa90d5960"
+    },
+    {
+      "id": "wps-office",
+      "source_name": "Wps-office",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2d28fbfc81d084ec2c3731f1a7709f43ae48f60be3caa2a1dadf98e5e0ecce76"
+    },
+    {
+      "id": "xbackbone",
+      "source_name": "Xbackbone",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "2b739ddff7984f34aacf2647485c571bbb2fe600082746526ba42faa69530f18"
+    },
+    {
+      "id": "xemu",
+      "source_name": "Xemu",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "41cd503cec35de8ea6942abd836ca309598a1c45cbb9da6c74ec2a084311ebc0"
+    },
+    {
+      "id": "yaak",
+      "source_name": "Yaak",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "47c5e363aa2e8c5ad8a7fa924678db13244b83ac61aea781aa80f17a77d7a73e"
+    },
+    {
+      "id": "your-spotify",
+      "source_name": "Your_spotify",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "dfffcf329a9028ef147f402dbb51074960b1b619967313a09263d43436b79eb6"
+    },
+    {
+      "id": "zen",
+      "source_name": "Zen",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "e3ad0a5bf63fb3fd8d5273e91118fa0536befe3ec778edcd4b7520baa56f7310"
+    },
+    {
+      "id": "znc",
+      "source_name": "Znc",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "c1321e6857b2948029d70d7886ca9702457f334340b0a37bb003ba1168e3af14"
+    },
+    {
+      "id": "zotero",
+      "source_name": "Zotero",
+      "type": 1,
+      "kind": "single-container",
+      "source": "https://raw.githubusercontent.com/technorabilia/portainer-templates/main/lsio/templates/templates.json",
+      "content_hash": "df9dfdcad907611590a5f4525afc8afee7c3cc76cfbb30126d85bc1909335e83"
+    }
+  ],
+  "failed": [],
+  "converted_count": 201,
+  "failed_count": 0,
+  "structural_validation_errors": []
+}

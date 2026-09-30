@@ -1,0 +1,9 @@
+services:
+  tiddlywiki:
+    image: mazzolino/tiddlywiki:latest
+    ports:
+      - '8080:8080/tcp'
+    volumes:
+      - '${PORTAINER_ROOT}/Files/AppData/Config/TiddlyWiki:/var/lib/tiddlywiki'
+    restart: 'unless-stopped'
+    platform: 'linux'

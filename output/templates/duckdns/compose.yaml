@@ -1,0 +1,10 @@
+services:
+  duckdns:
+    image: linuxserver/duckdns:latest
+    environment:
+      SUBDOMAINS: '${SUBDOMAINS:-}'
+      TOKEN: '${TOKEN:-}'
+      PUID: '${PUID:-1000}'
+      PGID: '${PGID:-100}'
+    restart: 'unless-stopped'
+    platform: 'linux'
